@@ -10,7 +10,7 @@ const About = () => {
     "
     >
       {/*About Grid Container8*/}
-      <div className="min-w-full flex-col flex-wrap overflow-hidden space-y-6 place-items-center text-bodytext ">
+      <div className="min-w-full flex-col flex-wrap overflow-hidden space-y-2 sm:space-y-6 place-items-center text-bodytext ">
         <div className="flex flex-row min-w-full sm:space-x-6 space-x-2 ">
           <div
             className="flex flex-col flex-wrap place-content-center break-all p-1 bg-lightbg text-bodytext
@@ -61,8 +61,8 @@ const About = () => {
               <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
             </div>
             <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary sm:hidden "></div>
-            <div className="sm:hidden flex flex-col flex-wrap w-full ">
-              <p className="break-normal indent-10 ">
+            <div className="flex flex-col flex-wrap w-full sm:hidden ">
+              <p className="break-all whitespace-normal indent-10 ">
                 I enjoy bringing ideas to life on the web. My journey into web
                 development started with curiosity and has grown into a passion
                 for building websites and applications that people genuinely
@@ -73,6 +73,8 @@ const About = () => {
                 I also have experience building websites with WordPress.
               </p>
             </div>
+
+            {/*Desktop Focus section*/}
 
             <div className="hidden w-full p-5 h-100 flex-wrap bg-lightbg sm:basis-1/4 rounded-3xl sm:flex sm:flex-col ">
               <div className="flex flex-row w-full justify-between">
@@ -108,14 +110,16 @@ const About = () => {
               </div>
             </div>
           </div>
-
+          {/*Mobile Focus section*/}
           <div className="flex flex-col flex-wrap w-full p-2 sm:p-4 h-100 bg-lightbg  rounded-3xl sm:hidden">
+            {/* Focus Section */}
+
             <div className="flex flex-col flex-wrap w-full">
               <h4 className="text-2xl font-bold font-inter ">Focus</h4>
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
             </div>
             <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary"></div>
-            <div className="flex flex-col flex-wrap justify-center gap-4">
+            <div className="flex flex-col flex-wrap  gap-y-4">
               <span className="flex flex-row gap-3 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400 " />
                 <h3 className="break-words">

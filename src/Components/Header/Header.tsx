@@ -33,7 +33,7 @@ const Header = ({ onSet, themeState }: Props) => {
       </div>
       {/* MOBILE NAVIGATION */}
       <nav
-        className="flex min-w-11/12 items-center justify-between px-3 py-4 gap-6
+        className="flex min-w-full sm:min-w-11/12 items-center justify-between px-3 py-4 gap-6
       bg-white/10 border border-white/20 rounded-full backdrop-blur-2xl shadow-[0_8px_32px_rgba(31,38,135,0.15)]
       transition-all duration-300 hover:scale-105
       sm:hidden
