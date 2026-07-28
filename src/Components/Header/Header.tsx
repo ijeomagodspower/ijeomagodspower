@@ -16,7 +16,7 @@ type Props = {
 
 const Header = ({ onSet, themeState }: Props) => {
   return (
-    <div className="flex flex-wrap fixed z-50 justify-between min-w-full max-w-full pr-2 sm:px-5 sm:pr-15 sm:mb-10  ">
+    <div className="flex flex-wrap fixed z-50 justify-between min-w-full max-w-full pr-5 sm:px-5 sm:pr-15 sm:mb-10  ">
       <div
         className="hidden p-4 bg-white/15 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] rounded-full
         transition-all duration-300 hover:scale-120 cursor-pointer

@@ -11,7 +11,7 @@ const Herosection = () => {
   return (
     <section
       id="homehero"
-      className="flex flex-col items-center text-lightbg gap-y-30 sm:flex-row"
+      className="flex flex-col items-center text-lightbg gap-y-40 sm:flex-row"
     >
       <div className="flex justify-between mt-30 sm:mt-35">
         <div className="flex flex-col social-icon-con gap-20.5 pl-2 pr-3 items-start sm:gap-21.5 sm:pt-6 sm:pr-5 sm:pl-3">
@@ -49,7 +49,7 @@ const Herosection = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap  mt-5 -ml-10 gap-8 font-sora sm:ml-0 pl-2 sm:pl-0 ">
+          <div className="flex flex-wrap  mt-8 -ml-10 gap-8 font-sora sm:ml-0 sm:mt-5 pl-2 sm:pl-0 ">
             <button
               className="flex px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-sm rounded-full text-lightbg bg-primary font-bold 
             transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
