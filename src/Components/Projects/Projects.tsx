@@ -9,7 +9,9 @@ const Projects = () => {
     <div id="projects" className="flex flex-col gap-y-6">
       {/* Project Heading */}
       <div className="flex flex-col justify-between items-center font-inter text-center mb-10 gap-y-2">
-        <h3 className="text-2xl sm:text-4xl font-bold">Portfolio</h3>
+        <h3 className="text-2xl text-lightbg sm:text-4xl font-bold">
+          Portfolio
+        </h3>
         <h2 className="text-4xl font-bold bg-linear-to-br from-primary via-secondary to-primary bg-clip-text text-transparent">
           Featured Projects
         </h2>
@@ -33,7 +35,7 @@ const Projects = () => {
               <CircleArrowOutUpRight className="w-3 h-3" />
             </a>
           </div>
-          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-4 rounded-3xl object-cover h-80 ">
+          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 ">
             <img
               src={Capstone}
               alt="Capstone Project"
@@ -70,7 +72,7 @@ const Projects = () => {
               <CircleArrowOutUpRight className="w-3 h-3" />
             </a>
           </div>
-          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-4 rounded-3xl object-cover h-80 ">
+          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 ">
             <img
               src={UserForm}
               alt="User Data Form Project"
@@ -107,7 +109,7 @@ const Projects = () => {
               <CircleArrowOutUpRight className="w-3 h-3" />
             </a>
           </div>
-          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-4 rounded-3xl object-cover h-80 ">
+          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 ">
             <img
               src={Glnd}
               alt="Golden Life Nature Project"
@@ -144,7 +146,7 @@ const Projects = () => {
               <CircleArrowOutUpRight className="w-3 h-3" />
             </a>
           </div>
-          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-4 rounded-3xl h-50 ">
+          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl h-80 ">
             <img
               src={Tevik}
               alt="Tevik Extract Project"

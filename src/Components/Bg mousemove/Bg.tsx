@@ -30,7 +30,7 @@ const Bg = ({ children }: Bgprops) => {
       ref={bgRef}
       onMouseMove={handleMouseMove}
       className={`${theme} min-h-screen min-w-full max-w-full justify-center
-        select-none transition-colors duration-300 py-10 px-5  `}
+        select-none transition-colors duration-300 py-10 px-3 sm:px-5  `}
       style={
         {
           "--mouse-x": "50%",

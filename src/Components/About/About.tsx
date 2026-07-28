@@ -11,7 +11,7 @@ const About = () => {
     >
       {/*About Grid Container8*/}
       <div className="min-w-full flex-col flex-wrap overflow-hidden space-y-6 place-items-center text-bodytext ">
-        <div className="flex flex-row min-w-full space-x-6 ">
+        <div className="flex flex-row min-w-full sm:space-x-6 space-x-2 ">
           <div
             className="flex flex-col flex-wrap place-content-center break-all p-1 bg-lightbg text-bodytext
            rounded-3xl w-2/4 h-50 sm:h-60 sm:w-1/4 text-center items-center "
@@ -54,7 +54,7 @@ const About = () => {
 
         {/* About Grid Container2 */}
 
-        <div className="flex flex-col min-w-full space-x-6 space-y-6 sm:flex-row">
+        <div className="flex flex-col min-w-full sm:space-x-6 space-y-6 sm:flex-row">
           <div className="flex flex-col w-full p-2 sm:p-4 h-100 flex-wrap bg-lightbg sm:basis-3/4 rounded-3xl ">
             <div className="flex flex-row w-full justify-between sm:hidden">
               <h4 className="text-2xl font-bold font-inter ">About Me</h4>
@@ -115,7 +115,7 @@ const About = () => {
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
             </div>
             <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary"></div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col flex-wrap justify-center gap-4">
               <span className="flex flex-row gap-5 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400 " />
                 <h3>Building modern interfaces with React.</h3>
