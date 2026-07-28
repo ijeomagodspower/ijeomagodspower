@@ -4,15 +4,16 @@ import { FaCode } from "react-icons/fa";
 
 const About = () => {
   return (
-    <section id="about"
-      className="flex rounded-3xl px-6 pt-6 pb-0 bg-white/15 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] 
+    <section
+      id="about"
+      className="flex rounded-3xl px-2 pt-2 sm:px-6 sm:pt-6 sm:pb-0 bg-white/15 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] 
     "
     >
       {/*About Grid Container8*/}
       <div className="min-w-full flex-col flex-wrap overflow-hidden space-y-6 place-items-center text-bodytext ">
         <div className="flex flex-row min-w-full space-x-6 ">
           <div
-            className="flex flex-col flex-wrap place-content-center break-all p-2 bg-lightbg text-bodytext
+            className="flex flex-col flex-wrap place-content-center break-all p-1 bg-lightbg text-bodytext
            rounded-3xl w-2/4 h-50 sm:h-60 sm:w-1/4 text-center items-center "
           >
             <h3 className="text-2xl text-center font-bold font-inter ">
@@ -54,7 +55,7 @@ const About = () => {
         {/* About Grid Container2 */}
 
         <div className="flex flex-col min-w-full space-x-6 space-y-6 sm:flex-row">
-          <div className="flex flex-col w-full p-5 h-100 flex-wrap bg-lightbg sm:basis-3/4 rounded-3xl ">
+          <div className="flex flex-col w-full p-2 sm:p-4 h-100 flex-wrap bg-lightbg sm:basis-3/4 rounded-3xl ">
             <div className="flex flex-row w-full justify-between sm:hidden">
               <h4 className="text-2xl font-bold font-inter ">About Me</h4>
               <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
@@ -108,7 +109,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-full p-5 h-100 flex-wrap bg-lightbg sm:basis-1/4 rounded-3xl sm:hidden">
+          <div className="flex flex-col w-full p-2 sm:p-4 h-100 flex-wrap bg-lightbg sm:basis-1/4 rounded-3xl sm:hidden">
             <div className="flex flex-row w-full justify-between">
               <h4 className="text-2xl font-bold font-inter ">Focus</h4>
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
@@ -130,10 +131,6 @@ const About = () => {
               <span className="flex flex-row gap-5  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
                 <h3>Contributing solutions in various sectors.</h3>
-              </span>
-              <span className="flex flex-row gap-5  font-bold align ">
-                <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
-                <h3>Building softwares to solve real-problems.</h3>
               </span>
               <span className="flex flex-row gap-5  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />

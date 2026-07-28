@@ -1,6 +1,6 @@
 import { CircleArrowOutUpRight } from "lucide-react";
 import Capstone from "../../assets/Capstone.jpg";
-import UserForm from "../../assets/userForm.jpg";
+import UserForm from "../../assets/userform.jpg";
 import Glnd from "../../assets/Glnd.jpg";
 import Tevik from "../../assets/Tevikextract.jpg";
 
