@@ -17,7 +17,7 @@ const Projects = () => {
         </h2>
       </div>
       {/* Projects Container */}
-      <div className="flex flex-col gap-y-6 max-h-175 overflow-y-auto py-6 pr-2 scrollbar-hide sm:flex-row sm:flex-wrap sm:overflow-y-hidden sm:min-w-full sm:gap-x-6 ">
+      <div className="flex flex-col gap-y-20 max-h-175 overflow-y-auto py-6 pr-2 scrollbar-hide sm:flex-row sm:flex-wrap sm:overflow-y-hidden sm:min-w-full sm:gap-y-6 sm:gap-x-6 ">
         {/* Project 1 */}
 
         <div className="flex flex-col gap-y-6 basis-full sm:basis-[calc(50%-12px)] ">
@@ -97,7 +97,7 @@ const Projects = () => {
         <div className="flex flex-col gap-y-6 basis:full sm:basis-[calc(50%-12px)] ">
           <div className="flex flex-row justify-between w-full px-4">
             <h3 className="text-2xl sm:text-3xl font-bold text-lightbg">
-              Golden life Nature Store
+              GLN Store
             </h3>
             <a
               href="https://goldenlifenature.com/"

@@ -16,7 +16,7 @@ type Props = {
 
 const Header = ({ onSet, themeState }: Props) => {
   return (
-    <div className="flex flex-wrap fixed z-50 justify-between min-w-full max-w-full sm:px-5 sm:pr-15 sm:mb-10  ">
+    <div className="flex flex-wrap fixed z-50 justify-between min-w-full max-w-full pr-2 sm:px-5 sm:pr-15 sm:mb-10  ">
       <div
         className="hidden p-4 bg-white/15 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] rounded-full
         transition-all duration-300 hover:scale-120 cursor-pointer
@@ -33,7 +33,7 @@ const Header = ({ onSet, themeState }: Props) => {
       </div>
       {/* MOBILE NAVIGATION */}
       <nav
-        className="flex min-w-full sm:min-w-11/12 items-center justify-between px-3 py-4 gap-6
+        className="flex min-w-full sm:min-w-11/12 items-center justify-between px-3 py-4 gap-4
       bg-white/10 border border-white/20 rounded-full backdrop-blur-2xl shadow-[0_8px_32px_rgba(31,38,135,0.15)]
       transition-all duration-300 hover:scale-105
       sm:hidden
