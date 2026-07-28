@@ -118,13 +118,7 @@ const Projects = () => {
           </div>
           <div className=" flex flex-row justify-start gap-x-6">
             <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
-              <p>Html</p>
-            </div>
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
-              <p>Css</p>
-            </div>
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
-              <p>Javascript</p>
+              <p>Wordpress</p>
             </div>
           </div>
         </div>
@@ -155,13 +149,7 @@ const Projects = () => {
           </div>
           <div className=" flex flex-row justify-start gap-x-6">
             <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
-              <p>Html</p>
-            </div>
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
-              <p>Css</p>
-            </div>
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
-              <p>Javascript</p>
+              <p>Wordpress</p>
             </div>
           </div>
         </div>

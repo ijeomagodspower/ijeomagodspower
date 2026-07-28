@@ -23,12 +23,12 @@ const About = () => {
             <h3 className="font-sora ">Frontend Developer</h3>
           </div>
           <div
-            className="flex w-2/4 h-50 sm:h-60 bg-cover overflow-hidden bg-lightbg rounded-3xl
+            className="flex w-2/4 h-50 sm:h-60 bg-cover overflow-hidden object-cover bg-lightbg rounded-3xl
            sm:w-3/4 "
           >
             <img
               src={MyPhoto}
-              className=" w-full h-full bg-cover rounded-3xl sm:hidden"
+              className=" w-full h-full bg-cover object-cover rounded-3xl sm:hidden"
             />
             <div className="hidden w-full p-5 flex-wrap bg-lightbg rounded-3xl sm:flex sm:flex-col ">
               <div className="flex flex-row w-full justify-between">
@@ -54,14 +54,14 @@ const About = () => {
 
         {/* About Grid Container2 */}
 
-        <div className="flex flex-col min-w-full sm:space-x-6 space-y-6 sm:flex-row">
+        <div className="flex flex-col min-w-full space-y-2 sm:space-x-6 sm:space-y-6 sm:flex-row">
           <div className="flex flex-col w-full p-2 sm:p-4 h-100 flex-wrap bg-lightbg sm:basis-3/4 rounded-3xl ">
             <div className="flex flex-row w-full justify-between sm:hidden">
               <h4 className="text-2xl font-bold font-inter ">About Me</h4>
               <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
             </div>
             <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary sm:hidden "></div>
-            <div className="sm:hidden">
+            <div className="sm:hidden flex flex-col flex-wrap w-full ">
               <p className="break-normal indent-10 ">
                 I enjoy bringing ideas to life on the web. My journey into web
                 development started with curiosity and has grown into a passion
@@ -109,32 +109,42 @@ const About = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-full p-2 sm:p-4 h-100 flex-wrap bg-lightbg sm:basis-1/4 rounded-3xl sm:hidden">
-            <div className="flex flex-row w-full justify-between">
+          <div className="flex flex-col flex-wrap w-full p-2 sm:p-4 h-100 bg-lightbg  rounded-3xl sm:hidden">
+            <div className="flex flex-col flex-wrap w-full">
               <h4 className="text-2xl font-bold font-inter ">Focus</h4>
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
             </div>
             <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary"></div>
             <div className="flex flex-col flex-wrap justify-center gap-4">
-              <span className="flex flex-row gap-5 font-bold align ">
+              <span className="flex flex-row gap-3 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400 " />
-                <h3>Building modern interfaces with React.</h3>
+                <h3 className="break-words">
+                  Building modern interfaces with React.
+                </h3>
               </span>
               <span className="flex flex-row gap-5  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
-                <h3>Developing powerful websites with WordPress.</h3>
+                <h3 className="break-words">
+                  Developing powerful websites with WordPress.
+                </h3>
               </span>
               <span className="flex flex-row gap-5  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
-                <h3>Focused on becoming a Full Stack Developer.</h3>
+                <h3 className="break-words">
+                  Focused on becoming a Full Stack Developer.
+                </h3>
               </span>
               <span className="flex flex-row gap-5  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
-                <h3>Contributing solutions in various sectors.</h3>
+                <h3 className="break-words">
+                  Contributing solutions in various sectors.
+                </h3>
               </span>
               <span className="flex flex-row gap-5  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
-                <h3>Open to collab and remote opportunities.</h3>
+                <h3 className="break-words">
+                  Open to collab and remote opportunities.
+                </h3>
               </span>
             </div>
           </div>
