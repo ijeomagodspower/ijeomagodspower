@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@custom-variants dark (&:where(.dark,.dark*));
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap");
+@theme {
+  --color-lightbg: #efe6f6;
+  --color-darkbg: #1a1a1a;
+  --color-primary: #904aff;
+  --color-secondary: #00b862;
+  --color-hover-primary: #821eff;
+  --color-bodytext: #454346;
+  --font-inter: "inter", sans-serif;
+  --font-sora: "sora", sans-serif;
+  --animate-bounce-slow: bounce-slow 1.2s linear infinite;
+
+  @keyframes bounce-slow {
+    0%,
+    100% {
+      transform: translateY(-5%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(20%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+}
+  .scrollbar-hide {
+    -ms-overflow-style : none;
+    scrollbar-width : none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display : none;
+  }
