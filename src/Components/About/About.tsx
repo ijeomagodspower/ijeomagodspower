@@ -76,13 +76,13 @@ const About = () => {
 
             {/*Desktop Focus section*/}
 
-            <div className="hidden w-full p-5 h-100 flex-wrap bg-lightbg sm:basis-1/4 rounded-3xl sm:flex sm:flex-col ">
-              <div className="flex flex-row w-full justify-between">
+            <div className="hidden w-full p-5 h-100 flex-wrap bg-lightbg md:basis-1/4 rounded-3xl md:flex md:flex-col ">
+              <div className="flex flex-row flex-wrap w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">Focus</h4>
                 <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
               </div>
               <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary"></div>
-              <div className="flex flex-col gap-5">
+              <div className="flex flex-col flex-wrap gap-5">
                 <span className="flex flex-row gap-5 font-bold align ">
                   <FaCode className="w-4 h-4 mt-1 text-yellow-400 " />
                   <h3>Building modern interfaces with React.</h3>
@@ -120,7 +120,7 @@ const About = () => {
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
             </div>
             <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary"></div>
-            <div className="flex flex-col flex-wrap  gap-y-4">
+            <div className="flex flex-col flex-wrap gap-y-4 px-2">
               <span className="flex flex-row gap-3 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400 " />
                 <h3 className="break-words">
