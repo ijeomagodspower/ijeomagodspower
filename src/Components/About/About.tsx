@@ -127,25 +127,25 @@ const About = () => {
                   Building modern interfaces with React.
                 </h3>
               </span>
-              <span className="flex flex-row gap-5 font-bold align ">
+              <span className="flex flex-row gap-3 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
                 <h3 className="break-words">
                   Developing powerful websites with WordPress.
                 </h3>
               </span>
-              <span className="flex flex-row gap-5  font-bold align ">
+              <span className="flex flex-row gap-3  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
                 <h3 className="break-words">
                   Focused on becoming a Full Stack Developer.
                 </h3>
               </span>
-              <span className="flex flex-row gap-5  font-bold align ">
+              <span className="flex flex-row gap-3  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
                 <h3 className="break-words">
                   Contributing solutions in various sectors.
                 </h3>
               </span>
-              <span className="flex flex-row gap-5  font-bold align ">
+              <span className="flex flex-row gap-3  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
                 <h3 className="break-words">
                   Open to collab and remote opportunities.
