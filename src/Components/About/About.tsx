@@ -120,7 +120,7 @@ const About = () => {
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
             </div>
             <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary"></div>
-            <div className="flex flex-col flex-wrap gap-y-4 px-2">
+            <div className="hidden flex-col flex-wrap gap-y-4 px-2">
               <span className="flex flex-row gap-3 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400 " />
                 <h3 className="break-words">
