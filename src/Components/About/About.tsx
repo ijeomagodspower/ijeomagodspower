@@ -112,15 +112,15 @@ const About = () => {
           </div>
 
           {/*Mobile Focus section*/}
-          <div className="flex flex-col flex-wrap min-w-full p-2 max-h-full gap-y-4 bg-lightbg rounded-3xl md:hidden">
+          <div className="flex flex-col flex-wrap min-w-full p-2 max-h-full bg-lightbg rounded-3xl md:hidden">
             {/* Focus Section */}
 
             <div className="flex flex-row flex-wrap min-w-full justify-between">
               <h4 className="text-2xl font-bold font-inter ">Focus</h4>
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
             </div>
-            <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary"></div>
-            <div className="hidden flex-col flex-wrap w-full gap-y-4 px-2">
+            <div className=" w-10 border-t-2 border-dashed mt-4 mb-6 border-primary"></div>
+            <div className="flex-col flex-wrap w-full gap-y-4 px-2">
               <span className="flex flex-row gap-3 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400 " />
                 <h3 className="break-words">
