@@ -56,7 +56,7 @@ const About = () => {
 
         <div className="flex flex-col min-w-full space-y-2 md:space-x-6 md:space-y-6 md:flex-row">
           <div className="flex flex-col w-full p-2 md:p-4 h-100 flex-wrap bg-lightbg md:basis-3/4 rounded-3xl ">
-            <div className="flex flex-row w-full justify-between sm:hidden">
+            <div className="flex flex-row w-full justify-between md:hidden">
               <h4 className="text-2xl font-bold font-inter ">About Me</h4>
               <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
             </div>
@@ -112,22 +112,22 @@ const About = () => {
           </div>
 
           {/*Mobile Focus section*/}
-          <div className="flex flex-col flex-wrap w-full p-2 md:p-4 h-100 bg-lightbg  rounded-3xl md:hidden">
+          <div className="flex flex-col flex-wrap min-w-full p-2 max-h-full gap-y-4 bg-lightbg rounded-3xl md:hidden">
             {/* Focus Section */}
 
-            <div className="flex flex-row flex-wrap w-full">
+            <div className="flex flex-row flex-wrap min-w-full justify-between">
               <h4 className="text-2xl font-bold font-inter ">Focus</h4>
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
             </div>
             <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary"></div>
-            <div className="hidden flex-col flex-wrap gap-y-4 px-2">
+            <div className="hidden flex-col flex-wrap w-full gap-y-4 px-2">
               <span className="flex flex-row gap-3 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400 " />
                 <h3 className="break-words">
                   Building modern interfaces with React.
                 </h3>
               </span>
-              <span className="flex flex-row gap-5  font-bold align ">
+              <span className="flex flex-row gap-5 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
                 <h3 className="break-words">
                   Developing powerful websites with WordPress.
