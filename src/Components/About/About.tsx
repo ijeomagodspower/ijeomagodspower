@@ -112,7 +112,7 @@ const About = () => {
           </div>
 
           {/*Mobile Focus section*/}
-          <div className="flex flex-col flex-wrap min-w-full p-2 max-h-full bg-lightbg rounded-3xl md:hidden">
+          <div className="flex flex-col flex-wrap min-w-full p-2 h-100 bg-lightbg rounded-3xl md:hidden">
             {/* Focus Section */}
 
             <div className="flex flex-row flex-wrap min-w-full justify-between">
