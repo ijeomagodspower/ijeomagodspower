@@ -54,13 +54,13 @@ const About = () => {
 
         {/* About Grid Container2 */}
 
-        <div className="flex flex-col min-w-full space-y-2 sm:space-x-6 sm:space-y-6 sm:flex-row">
-          <div className="flex flex-col w-full p-2 sm:p-4 h-100 flex-wrap bg-lightbg sm:basis-3/4 rounded-3xl ">
+        <div className="flex flex-col min-w-full space-y-2 md:space-x-6 md:space-y-6 md:flex-row">
+          <div className="flex flex-col w-full p-2 md:p-4 h-100 flex-wrap bg-lightbg md:basis-3/4 rounded-3xl ">
             <div className="flex flex-row w-full justify-between sm:hidden">
               <h4 className="text-2xl font-bold font-inter ">About Me</h4>
               <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
             </div>
-            <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary sm:hidden "></div>
+            <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary md:hidden "></div>
             <div className="flex flex-col flex-wrap w-full sm:hidden ">
               <p className="break-all whitespace-normal indent-10 ">
                 I enjoy bringing ideas to life on the web. My journey into web
@@ -110,11 +110,12 @@ const About = () => {
               </div>
             </div>
           </div>
+
           {/*Mobile Focus section*/}
-          <div className="flex flex-col flex-wrap w-full p-2 sm:p-4 h-100 bg-lightbg  rounded-3xl sm:hidden">
+          <div className="flex flex-col flex-wrap w-full p-2 md:p-4 h-100 bg-lightbg  rounded-3xl md:hidden">
             {/* Focus Section */}
 
-            <div className="flex flex-col flex-wrap w-full">
+            <div className="flex flex-row flex-wrap w-full">
               <h4 className="text-2xl font-bold font-inter ">Focus</h4>
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
             </div>
