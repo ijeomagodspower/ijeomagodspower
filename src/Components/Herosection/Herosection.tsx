@@ -13,7 +13,7 @@ const Herosection = () => {
   return (
     <section
       id="homehero"
-      className={`${theme} flex flex-col items-center text-lightbg gap-y-40 sm:flex-row`}
+      className={`${theme} flex flex-col items-center gap-y-40 sm:flex-row`}
     >
       <div className="flex justify-between mt-30 sm:mt-35">
         <div className="flex flex-col social-icon-con gap-20.5 pl-2 pr-3 items-start sm:gap-21.5 sm:pt-6 sm:pr-5 sm:pl-3">
@@ -34,7 +34,7 @@ const Herosection = () => {
         <div className="flex flex-col gap-y-10 sm:gap-y-5 ">
           <div className="flex flex-col gap-y-5 sm:gap-y-4 ">
             <h3
-              className="font-inter text-2xl sm:text-5xl text-black font-bold animate-bounce dark:text-lightbg
+              className="font-inter text-2xl  font-bold animate-bounce text-primary sm:text-5xl dark:text-lightbg
             "
             >
               Frontend Developer

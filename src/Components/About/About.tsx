@@ -54,8 +54,8 @@ const About = () => {
 
         {/* About Grid Container2 */}
 
-        <div className="flex flex-col flex-wrap min-w-full space-y-2 md:space-x-6 md:space-y-6 md:flex-row">
-          <div className="flex flex-col flex-wrap h-full px-2 py-4 bg-lightbg md:p-4 md:basis-3/4 rounded-3xl ">
+        <div className="flex flex-col flex-wrap min-w-full space-y-2 md:space-x-6 md:space-y-6 sm:flex sm:flex-row">
+          <div className="flex flex-col flex-wrap h-full px-2 py-4 bg-lightbg md:p-4 md:w-3/4 md:basis-3/4 rounded-3xl ">
             {/* MOBILE ABOUT STORY */}
 
             <div className="flex flex-row w-full justify-between md:hidden">
@@ -156,7 +156,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:basis-1/4 rounded-3xl sm:flex">
+          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:w-1/4 md:basis-1/4 rounded-3xl sm:flex">
             <img
               src={MyPhoto}
               className="min-w-full min-h-full object-cover rounded-3xl "
