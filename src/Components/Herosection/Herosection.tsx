@@ -63,7 +63,7 @@ const Herosection = () => {
           <div className="flex flex-wrap mt-8 -ml-10 gap-4 font-sora sm:ml-0 sm:mt-5 pl-2 sm:pl-0 ">
             <button
               className="flex flex-row gap-4 px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-md rounded-full text-lightbg bg-primary font-bold 
-            transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
+            transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
             "
             >
               <a href="#projects">My Work</a>
@@ -73,7 +73,7 @@ const Herosection = () => {
             <button
               className="border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
               text-center cursor-pointer text-md rounded-full font-bold
-            transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg 
+            transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
             "
             >
               <a
