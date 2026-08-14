@@ -17,9 +17,9 @@ const Skills = () => {
         className="grid grid-cols-2 grid-rows-3 min-w-full min-h-full gap-4 px-2 py-4 justify-center item-center 
       font-sora "
       >
-        <div className="flex flex-row bg-lightbg px-2 py-4 gap-2 rounded-3xl justify-center aligin-center">
+        <div className="flex flex-row bg-lightbg px-2 py-4 gap-2 rounded-3xl">
           <FaJs className="text-4xl text-yellow-500 " />
-          <p>Js</p>
+          <p className="align-center">Js</p>
         </div>
         <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
           <FaHtml5 className="text-4xl text-orange-500" />
