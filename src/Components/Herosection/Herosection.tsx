@@ -1,8 +1,15 @@
 import { ArrowBigRight } from "lucide-react";
 import Cyberhead from "../../../src/assets/cybereye.svg";
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { useContext } from "react";
+import { ThemeContext, type Theme } from "../../ThemeContext";
 
 const Herosection = () => {
+  const { theme, setTheme } = useContext(ThemeContext) as {
+    theme: Theme;
+    setTheme: React.Dispatch<React.SetStateAction<Theme>>;
+  };
+
   return (
     <section
       id="homehero"

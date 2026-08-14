@@ -21,23 +21,23 @@ const Skills = () => {
           <FaJs className="text-4xl text-yellow-500" />
           <p>JS</p>
         </div>
-        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl content-center">
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl items-center">
           <FaHtml5 className="text-4xl text-orange-500" />
           <p>HTML</p>
         </div>
-        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl items-center">
           <FaCss3Alt className="text-4xl text-blue-500" />
           <p>CSS</p>
         </div>
-        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl items-center">
           <FaReact className="text-4xl text-blue-500" />
           <p>React</p>
         </div>
-        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl items-center">
           <FaGithub className="text-4xl text-orange-500" />
           <p>GitHub</p>
         </div>
-        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl items-center">
           <SiTailwindcss className="text-4xl text-blue-500" />
           <p>Tailwind Css</p>
         </div>
