@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { ThemeContext, type Theme } from "../../ThemeContext";
 
 const Herosection = () => {
-  const { theme, setTheme } = useContext(ThemeContext) as {
+  const theme = useContext(ThemeContext) as {
     theme: Theme;
     setTheme: React.Dispatch<React.SetStateAction<Theme>>;
   };
@@ -60,7 +60,6 @@ const Herosection = () => {
               className="flex px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-sm rounded-full text-lightbg bg-primary font-bold 
             transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
             "
-              onClick={() => setTheme("dark")}
             >
               View My Work <ArrowBigRight />
             </button>
