@@ -5,7 +5,7 @@ import { useContext } from "react";
 import { ThemeContext, type Theme } from "../../ThemeContext";
 
 const Herosection = () => {
-  const theme = useContext(ThemeContext) as {
+  const { theme } = useContext(ThemeContext) as {
     theme: Theme;
     setTheme: React.Dispatch<React.SetStateAction<Theme>>;
   };

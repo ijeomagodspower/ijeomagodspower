@@ -16,7 +16,7 @@ const Bg = ({ children }: Bgprops) => {
   };
   const bgRef = useRef<HTMLDivElement>(null);
   const { theme, setTheme } = useContext(ThemeContext) as {
-    theme: Theme;
+    theme: "light" | "dark";
     setTheme: React.Dispatch<React.SetStateAction<Theme>>;
   };
 
