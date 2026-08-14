@@ -66,7 +66,7 @@ const Herosection = () => {
             transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
             "
             >
-              View My Work <ArrowBigRight />
+              My Work <ArrowBigRight />
             </button>
 
             <button
