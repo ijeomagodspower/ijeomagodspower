@@ -15,6 +15,11 @@ const Bg = ({ children }: Bgprops) => {
     bgRef.current.style.setProperty("--mouse-y", `${e.clientY - rect.top}px`);
   };
   const bgRef = useRef<HTMLDivElement>(null);
+
+  {
+    /*Theme Light and Dark Mode*/
+  }
+
   const { theme, setTheme } = useContext(ThemeContext) as {
     theme: "light" | "dark";
     setTheme: React.Dispatch<React.SetStateAction<Theme>>;
