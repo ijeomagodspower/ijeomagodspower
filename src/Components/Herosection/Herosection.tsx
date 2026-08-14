@@ -13,7 +13,7 @@ const Herosection = () => {
   return (
     <section
       id="homehero"
-      className="flex flex-col items-center text-lightbg gap-y-40 sm:flex-row"
+      className={`${theme} flex flex-col items-center text-lightbg gap-y-40 sm:flex-row`}
     >
       <div className="flex justify-between mt-30 sm:mt-35">
         <div className="flex flex-col social-icon-con gap-20.5 pl-2 pr-3 items-start sm:gap-21.5 sm:pt-6 sm:pr-5 sm:pl-3">
@@ -33,7 +33,11 @@ const Herosection = () => {
 
         <div className="flex flex-col gap-y-10 sm:gap-y-5 ">
           <div className="flex flex-col text-lightbg gap-y-5 sm:gap-y-4 ">
-            <h3 className="font-inter text-2xl sm:text-5xl font-bold animate-bounce ">
+            <h3
+              className="font-inter text-2xl sm:text-5xl text-darkbg font-bold animate-bounce 
+            dark:text-lightbg
+            "
+            >
               Frontend Developer
             </h3>
             <h1 className="font-inter text-5xl sm:text-7xl font-bold bg-linear-to-br from-primary via-secondary to-primary bg-clip-text text-transparent ">
@@ -56,6 +60,7 @@ const Herosection = () => {
               className="flex px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-sm rounded-full text-lightbg bg-primary font-bold 
             transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
             "
+              onClick={() => setTheme("dark")}
             >
               View My Work <ArrowBigRight />
             </button>
