@@ -3,7 +3,7 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col min-h-full mt-30 ">
+    <div className="flex flex-col min-h-full mt-30 " id="skills">
       <div className="justify-center items-center mb-10 ">
         <h2
           className="text-4xl font-bold bg-linear-to-br from-primary via-secondary to-primary bg-clip-text text-transparent
@@ -18,10 +18,10 @@ const Skills = () => {
       font-sora "
       >
         <div className="flex flex-row bg-lightbg px-2 py-4 gap-2 rounded-3xl">
-          <FaJs className="text-4xl text-yellow-500 " />
-          <p className="place-items-center">Js</p>
+          <FaJs className="text-4xl text-yellow-500 content-center" />
+          <p>JS</p>
         </div>
-        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl content-center">
           <FaHtml5 className="text-4xl text-orange-500" />
           <p>HTML</p>
         </div>
