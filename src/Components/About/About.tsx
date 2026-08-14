@@ -61,8 +61,8 @@ const About = () => {
           {/* Section Start */}
 
           <div
-            className="flex flex-col flex-wrap h-full px-2 py-4 bg-lightbg 
-          sm:p-4 sm:w-2/4 rounded-3xl "
+            className="flex flex-col flex-wrap h-100 px-2 py-4 bg-lightbg 
+          sm:p-4 sm:w-2/3 rounded-3xl "
           >
             {/* MOBILE ABOUT STORY */}
 
@@ -164,7 +164,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg sm:flex sm:w-1/4 rounded-3xl">
+          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg sm:flex sm:w-1/3 rounded-3xl">
             <img
               src={MyPhoto}
               className="min-w-full min-h-full object-cover rounded-3xl "

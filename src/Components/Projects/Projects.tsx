@@ -17,7 +17,9 @@ const Projects = () => {
     <div id="projects" className="flex flex-col gap-y-6">
       {/* Project Heading */}
       <div className="flex flex-col justify-between items-center font-inter text-center mb-10 gap-y-2">
-        <h3 className="text-2xl text-lightbg sm:text-4xl font-bold">
+        <h3
+          className={` ${txtSwPry} text-2xl text-lightbg sm:text-4xl font-bold `}
+        >
           Portfolio
         </h3>
         <h2 className="text-4xl font-bold bg-linear-to-br from-primary via-secondary to-primary bg-clip-text text-transparent">
