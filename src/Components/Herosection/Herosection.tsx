@@ -34,7 +34,7 @@ const Herosection = () => {
         <div className="flex flex-col gap-y-10 sm:gap-y-5 ">
           <div className="flex flex-col gap-y-5 sm:gap-y-4 ">
             <h3
-              className={` ${theme === "light" ? "text-primary" : "text-lightbg"} font-inter text-2xl font-bold animate-bounce text-primary sm:text-5xl `}
+              className={` ${theme === "light" ? "text-primary" : "text-lightbg"} font-inter text-2xl font-bold animate-bounce sm:text-5xl `}
             >
               Frontend Developer
             </h3>

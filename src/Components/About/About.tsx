@@ -86,7 +86,7 @@ const About = () => {
 
             {/*Desktop Focus section*/}
 
-            <div className="hidden w-3/4 p-5 h-100 flex-wrap bg-lightbg rounded-3xl md:flex md:flex-col ">
+            <div className="hidden w-2/4 p-5 h-100 flex-wrap bg-lightbg rounded-3xl md:flex md:flex-col ">
               <div className="flex flex-row flex-wrap w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">Focus</h4>
                 <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
