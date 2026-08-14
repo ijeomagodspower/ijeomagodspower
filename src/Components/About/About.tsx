@@ -57,12 +57,12 @@ const About = () => {
 
         {/* About Grid Container2 */}
 
-        <div className="flex flex-col flex-wrap min-w-full space-y-2 md:space-6 md:flex md:flex-row">
+        <div className="flex flex-col flex-wrap min-w-full space-y-2 md:space-6 sm:flex-row">
           {/* Section Start */}
 
           <div
             className="flex flex-col flex-wrap h-full px-2 py-4 bg-lightbg 
-          md:p-4 md:w-3/4 rounded-3xl "
+          sm:p-4 sm:w-3/4 rounded-3xl "
           >
             {/* MOBILE ABOUT STORY */}
 
@@ -122,7 +122,7 @@ const About = () => {
           </div>
 
           {/*Mobile Focus section*/}
-          <div className="flex flex-col flex-wrap min-w-full px-2 py-4 h-full bg-lightbg rounded-3xl md:hidden">
+          <div className="flex flex-col flex-wrap min-w-full px-2 py-4 h-full bg-lightbg rounded-3xl sm:hidden">
             {/* Focus Section */}
 
             <div className="flex flex-row flex-wrap min-w-full justify-between">
@@ -164,7 +164,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:w-1/4 rounded-3xl">
+          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg sm:w-1/4 rounded-3xl">
             <img
               src={MyPhoto}
               className="min-w-full min-h-full object-cover rounded-3xl "
