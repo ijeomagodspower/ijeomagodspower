@@ -57,7 +57,7 @@ const About = () => {
 
         {/* About Grid Container2 */}
 
-        <div className="flex flex-col flex-wrap min-w-full h-full space-y-2 md:space-6 md:flex md:flex-row">
+        <div className="flex flex-col flex-wrap min-w-full space-y-2 md:space-6 md:flex md:flex-row">
           {/* Section Start */}
 
           <div
@@ -164,7 +164,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg w-1/4 md:w-1/4 rounded-3xl">
+          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:w-1/4 rounded-3xl">
             <img
               src={MyPhoto}
               className="min-w-full min-h-full object-cover rounded-3xl "

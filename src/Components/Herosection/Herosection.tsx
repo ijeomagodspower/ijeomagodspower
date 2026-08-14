@@ -70,8 +70,8 @@ const Herosection = () => {
             </button>
 
             <button
-              className="border-lightbg border-2 basis-1/2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
-              text-center cursor-pointer text-lg rounded-full font-bold sm:basis-1/4
+              className="border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
+              text-center cursor-pointer text-lg rounded-full font-bold
             transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg 
             "
             >
