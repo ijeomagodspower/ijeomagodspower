@@ -164,7 +164,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg sm:w-1/4 rounded-3xl">
+          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg sm:flex sm:w-1/4 rounded-3xl">
             <img
               src={MyPhoto}
               className="min-w-full min-h-full object-cover rounded-3xl "

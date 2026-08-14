@@ -62,11 +62,12 @@ const Herosection = () => {
 
           <div className="flex flex-wrap mt-8 -ml-10 gap-4 font-sora sm:ml-0 sm:mt-5 pl-2 sm:pl-0 ">
             <button
-              className="flex px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-lg rounded-full text-lightbg bg-primary font-bold 
+              className="flex flex-row gap-4 px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-lg rounded-full text-lightbg bg-primary font-bold 
             transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
             "
             >
-              My Work <ArrowBigRight />
+              <a href="#projects">My Work</a>
+              <ArrowBigRight />
             </button>
 
             <button
@@ -75,7 +76,13 @@ const Herosection = () => {
             transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg 
             "
             >
-              Contact Me
+              <a
+                href="https://wa.me/2348133235527"
+                className="ml-2"
+                target="_blank"
+              >
+                Contact Me
+              </a>
             </button>
           </div>
         </div>
