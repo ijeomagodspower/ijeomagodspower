@@ -1,20 +1,14 @@
 import { ArrowBigRight } from "lucide-react";
 import Cyberhead from "../../../src/assets/cybereye.svg";
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
-
-{
-  /* import { useContext } from "react";
-import { ThemeContext, type Theme } from "../../ThemeContext";*/
-}
+import { useContext } from "react";
+import { ThemeContext, type Theme } from "../../ThemeContext";
 
 const Herosection = () => {
-  {
-    /*
   const { theme } = useContext(ThemeContext) as {
     theme: Theme;
     setTheme: React.Dispatch<React.SetStateAction<Theme>>;
-  }; */
-  }
+  };
 
   return (
     <section
@@ -40,8 +34,7 @@ const Herosection = () => {
         <div className="flex flex-col gap-y-10 sm:gap-y-5 ">
           <div className="flex flex-col gap-y-5 sm:gap-y-4 ">
             <h3
-              className="font-inter text-2xl font-bold animate-bounce text-primary sm:text-5xl dark:text-lightbg
-            "
+              className={` ${theme === "light" ? "text-primary" : "text-lightbg"} font-inter text-2xl font-bold animate-bounce text-primary sm:text-5xl `}
             >
               Frontend Developer
             </h3>
