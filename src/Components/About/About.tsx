@@ -9,7 +9,7 @@ const About = () => {
       className="flex rounded-3xl px-2 pt-2 sm:px-6 sm:pt-6 sm:pb-0 bg-white/15 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] 
     "
     >
-      {/*About Grid Container8*/}
+      {/*About Grid Container 1*/}
       <div className="min-w-full flex-col flex-wrap overflow-hidden space-y-2 sm:space-y-6 place-items-center text-bodytext ">
         <div className="flex flex-row min-w-full sm:space-x-6 space-x-2 ">
           <div
@@ -22,14 +22,17 @@ const About = () => {
             <div className=" w-1/4 border-t-2 font-sora border-dashed my-4 border-primary"></div>
             <h3 className="font-sora ">Frontend Developer</h3>
           </div>
+
           <div
             className="flex w-2/4 h-50 sm:h-60 bg-cover overflow-hidden object-cover bg-lightbg rounded-3xl
            sm:w-3/4 "
           >
+            {/*Mobile PHoto section*/}
             <img
               src={MyPhoto}
               className=" w-full h-full bg-cover object-cover rounded-3xl md:hidden"
             />
+
             <div className="hidden w-full p-5 flex-wrap bg-lightbg rounded-3xl sm:flex sm:flex-col ">
               <div className="flex flex-row w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">About Me</h4>
@@ -54,8 +57,13 @@ const About = () => {
 
         {/* About Grid Container2 */}
 
-        <div className="flex flex-col flex-wrap min-w-full space-y-2 md:space-x-6 md:space-y-6 sm:flex sm:flex-row">
-          <div className="flex flex-col flex-wrap h-full px-2 py-4 bg-lightbg md:p-4 md:w-3/4 md:basis-3/4 rounded-3xl ">
+        <div className="flex flex-col flex-wrap min-w-full h-full space-y-2 md:space-6 md:flex md:flex-row">
+          {/* Section Start */}
+
+          <div
+            className="flex flex-col flex-wrap h-full px-2 py-4 bg-lightbg 
+          md:p-4 md:w-3/4 rounded-3xl "
+          >
             {/* MOBILE ABOUT STORY */}
 
             <div className="flex flex-row w-full justify-between md:hidden">
@@ -78,7 +86,7 @@ const About = () => {
 
             {/*Desktop Focus section*/}
 
-            <div className="hidden w-full p-5 h-100 flex-wrap bg-lightbg  rounded-3xl md:flex md:flex-col ">
+            <div className="hidden w-full p-5 h-100 flex-wrap bg-lightbg rounded-3xl md:flex md:flex-col ">
               <div className="flex flex-row flex-wrap w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">Focus</h4>
                 <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
@@ -156,7 +164,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:w-1/4 md:basis-1/4 rounded-3xl sm:flex">
+          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg w-1/4 md:w-1/4 rounded-3xl">
             <img
               src={MyPhoto}
               className="min-w-full min-h-full object-cover rounded-3xl "
