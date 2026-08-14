@@ -3,8 +3,16 @@ import Capstone from "../../assets/Capstone.jpg";
 import UserForm from "../../assets/userform.jpg";
 import Glnd from "../../assets/Glnd.jpg";
 import Tevik from "../../assets/Tevikextract.jpg";
+import { useContext } from "react";
+import { ThemeContext, type Theme } from "../../ThemeContext";
 
 const Projects = () => {
+  const { theme } = useContext(ThemeContext) as {
+    theme: Theme;
+  };
+  const txtSwPry = theme === "light" ? "text-primary" : "text-lightbg";
+  const txtSwBt = theme === "light" ? "text-bodytext" : "text-lightbg/80";
+
   return (
     <div id="projects" className="flex flex-col gap-y-6">
       {/* Project Heading */}
@@ -25,7 +33,9 @@ const Projects = () => {
 
         <div className="flex flex-col gap-y-6 basis-full sm:basis-[calc(50%-12px)] ">
           <div className="flex flex-row justify-between w-full px-4">
-            <h3 className="text-2xl sm:text-3xl font-bold text-lightbg">
+            <h3
+              className={` ${txtSwPry} text-2xl sm:text-3xl font-bold text-lightbg `}
+            >
               Capstone Project
             </h3>
             <a
@@ -46,13 +56,19 @@ const Projects = () => {
             />
           </div>
           <div className=" flex flex-row justify-start gap-x-6">
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
               <p>Html</p>
             </div>
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
               <p>Css</p>
             </div>
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
               <p>Javascript</p>
             </div>
           </div>
@@ -62,7 +78,9 @@ const Projects = () => {
 
         <div className="flex flex-col gap-y-6 basis-full sm:basis-[calc(50%-12px)]">
           <div className="flex flex-row justify-between w-full px-4">
-            <h3 className="text-2xl sm:text-3xl font-bold text-lightbg">
+            <h3
+              className={` ${txtSwPry} text-2xl sm:text-3xl font-bold text-lightbg `}
+            >
               User Data Form
             </h3>
             <a
@@ -83,13 +101,19 @@ const Projects = () => {
             />
           </div>
           <div className=" flex flex-row justify-start gap-x-6">
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
               <p>Html</p>
             </div>
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
               <p>Css</p>
             </div>
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
               <p>Javascript</p>
             </div>
           </div>
@@ -99,7 +123,9 @@ const Projects = () => {
 
         <div className="flex flex-col gap-y-6 basis:full sm:basis-[calc(50%-12px)] ">
           <div className="flex flex-row justify-between w-full px-4">
-            <h3 className="text-2xl sm:text-3xl font-bold text-lightbg">
+            <h3
+              className={` ${txtSwPry} text-2xl sm:text-3xl font-bold text-lightbg `}
+            >
               GLN Store
             </h3>
             <a
@@ -120,7 +146,9 @@ const Projects = () => {
             />
           </div>
           <div className=" flex flex-row justify-start gap-x-6">
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
               <p>Wordpress</p>
             </div>
           </div>
@@ -130,7 +158,9 @@ const Projects = () => {
 
         <div className="flex flex-col gap-y-6 basis:full sm:basis-[calc(50%-12px)] ">
           <div className="flex flex-row justify-between w-full px-4 ">
-            <h3 className="text-2xl sm:text-3xl font-bold text-lightbg">
+            <h3
+              className={` ${txtSwPry} text-2xl sm:text-3xl font-bold text-lightbg `}
+            >
               Tevik Store
             </h3>
             <a
@@ -151,7 +181,9 @@ const Projects = () => {
             />
           </div>
           <div className=" flex flex-row justify-start gap-x-6">
-            <div className="rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 text-lightbg/80">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
               <p>Wordpress</p>
             </div>
           </div>
