@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { useRef } from "react";
 import Header from "../Header/Header";
+import { ThemeContext, type Theme } from "../../ThemeContext";
 
 type Bgprops = {
   children: React.ReactNode;
@@ -14,7 +15,10 @@ const Bg = ({ children }: Bgprops) => {
     bgRef.current.style.setProperty("--mouse-y", `${e.clientY - rect.top}px`);
   };
   const bgRef = useRef<HTMLDivElement>(null);
-  const [theme, setTheme] = useState("dark");
+  const { theme, setTheme } = useContext(ThemeContext) as {
+    theme: Theme;
+    setTheme: React.Dispatch<React.SetStateAction<Theme>>;
+  };
 
   const onSet = () => {
     const newTheme = theme === "light" ? "dark" : "light";
