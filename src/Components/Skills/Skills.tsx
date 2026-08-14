@@ -3,7 +3,7 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div>
+    <div className="flex flex-col min-h-full">
       <div>
         <h2 className="text-4xl font-bold bg-linear-to-br from-primary via-secondary to-primary bg-clip-text text-transparent">
           My Skills

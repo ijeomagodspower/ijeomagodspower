@@ -28,7 +28,7 @@ const Bg = ({ children }: Bgprops) => {
     <div
       ref={bgRef}
       onMouseMove={handleMouseMove}
-      className={`${theme} min-h-screen min-w-full max-w-full justify-center
+      className={`${theme} min-h-full min-w-full max-w-full justify-center
         select-none transition-colors duration-300 py-10 px-3 sm:px-5  `}
       style={
         {
