@@ -26,7 +26,7 @@ const Herosection = () => {
 
         <div className="flex flex-col gap-y-10 sm:gap-y-5 ">
           <div className="flex flex-col text-lightbg gap-y-5 sm:gap-y-4 ">
-            <h3 className="font-inter text-2xl text-secondary sm:text-5xl font-bold animate-bounce ">
+            <h3 className="font-inter text-2xl sm:text-5xl font-bold animate-bounce ">
               Frontend Developer
             </h3>
             <h1 className="font-inter text-5xl sm:text-7xl font-bold bg-linear-to-br from-primary via-secondary to-primary bg-clip-text text-transparent ">

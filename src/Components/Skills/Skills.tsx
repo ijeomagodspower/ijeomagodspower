@@ -3,36 +3,40 @@ import { SiTailwindcss } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col min-h-full">
-      <div>
-        <h2 className="text-4xl font-bold bg-linear-to-br from-primary via-secondary to-primary bg-clip-text text-transparent">
+    <div className="flex flex-col min-h-full mt-10 ">
+      <div className="justify-center items-center mb-10 ">
+        <h2
+          className="text-4xl font-bold bg-linear-to-br from-primary via-secondary to-primary bg-clip-text text-transparent
+        justify-center items-center text-center
+        "
+        >
           My Skills
         </h2>
       </div>
       <div className="grid grid-cols-2 grid-rows-3 min-w-full min-h-full gap-4 px-2 py-4 justify-center item-center">
-        <div className="bg-lightbg p-4 rounded-3xl">
-          <FaJs className="text-4xl" />
-          <p>Description of Skill 1</p>
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+          <FaJs className="text-4xl text-yellow-500 " />
+          <p>Js</p>
         </div>
-        <div className="bg-lightbg p-4 rounded-3xl">
-          <FaHtml5 className="text-4xl" />
-          <p>Description of Skill 2</p>
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+          <FaHtml5 className="text-4xl text-orange-500" />
+          <p>HTML</p>
         </div>
-        <div className="bg-lightbg p-4 rounded-3xl">
-          <FaCss3Alt className="text-4xl" />
-          <p>Description of Skill 3</p>
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+          <FaCss3Alt className="text-4xl text-blue-500" />
+          <p>CSS</p>
         </div>
-        <div className="bg-lightbg p-4 rounded-3xl">
-          <FaReact className="text-4xl" />
-          <p>Description of Skill 4</p>
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+          <FaReact className="text-4xl text-blue-500" />
+          <p>React</p>
         </div>
-        <div className="bg-lightbg p-4 rounded-3xl">
-          <FaGithub className="text-4xl" />
-          <p>Description of Skill 5</p>
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+          <FaGithub className="text-4xl text-orange-500" />
+          <p>GitHub</p>
         </div>
-        <div className="bg-lightbg p-4 rounded-3xl">
-          <SiTailwindcss className="text-4xl" />
-          <p>Description of Skill 6</p>
+        <div className="flex flex-row bg-lightbg px-2 py-4 rounded-3xl">
+          <SiTailwindcss className="text-4xl text-blue-500" />
+          <p>Tailwind Css</p>
         </div>
       </div>
     </div>
