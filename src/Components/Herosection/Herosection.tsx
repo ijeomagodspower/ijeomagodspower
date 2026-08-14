@@ -42,10 +42,9 @@ const Herosection = () => {
               Hi, i'm Ijeoma Godspower
             </h1>
             <p className="font-sora text-secondary sm:text-lg sm:hidden ">
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+              xxxxxxxxxxxxxxxxxxxxxxxxxxxxx Building Innovative Systems
               <br />
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-              xxxxxxxxxxxxxxxxxxxxxxxxxxx
+              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx
             </p>
             <p className="hidden font-sora text-secondary sm:text-lg sm:flex ">
               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx

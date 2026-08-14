@@ -121,10 +121,10 @@ const About = () => {
             </div>
           </div>
 
-          {/*Mobile Focus section*/}
+          {/*Mobile Focus section
           <div className="flex flex-col flex-wrap min-w-full px-2 py-4 h-full bg-lightbg rounded-3xl sm:hidden">
             {/* Focus Section */}
-
+          {/*
             <div className="flex flex-row flex-wrap min-w-full justify-between">
               <h4 className="text-2xl font-bold font-inter ">Focus</h4>
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
@@ -163,6 +163,7 @@ const About = () => {
               </span>
             </div>
           </div>
+          */}
 
           <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg sm:flex sm:w-1/3 rounded-3xl">
             <img
