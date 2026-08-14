@@ -28,7 +28,7 @@ const About = () => {
           >
             <img
               src={MyPhoto}
-              className=" w-full h-full bg-cover object-cover rounded-3xl sm:hidden"
+              className=" w-full h-full bg-cover object-cover rounded-3xl md:hidden"
             />
             <div className="hidden w-full p-5 flex-wrap bg-lightbg rounded-3xl sm:flex sm:flex-col ">
               <div className="flex flex-row w-full justify-between">
@@ -76,7 +76,7 @@ const About = () => {
 
             {/*Desktop Focus section*/}
 
-            <div className="hidden w-full p-5 h-100 flex-wrap bg-lightbg md:basis-1/4 rounded-3xl md:flex md:flex-col ">
+            <div className="hidden w-full p-5 h-100 flex-wrap bg-lightbg md:basis-3/4 rounded-3xl md:flex md:flex-col ">
               <div className="flex flex-row flex-wrap w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">Focus</h4>
                 <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
@@ -154,7 +154,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="hidden w-full h-100 overflow-hidden bg-cover flex-wrap bg-lightbg sm:basis-1/4 rounded-3xl sm:flex">
+          <div className="hidden w-full h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:basis-1/4 rounded-3xl sm:flex">
             <img
               src={MyPhoto}
               className="min-w-full min-h-full object-cover rounded-3xl "
