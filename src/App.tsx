@@ -3,6 +3,7 @@ import About from "./Components/About/About";
 import Bg from "./Components/Bg mousemove/Bg";
 import Herosection from "./Components/Herosection/Herosection";
 import Projects from "./Components/Projects/Projects";
+import Skills from "./Components/Skills/Skills";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       </div>
       <div className="min-full sm:min-w-11/12 my-10 sm:px-20">
         <Projects />
+      </div>
+      <div className="min-full sm:min-w-11/12 my-10 sm:px-20">
+        <Skills />
       </div>
     </Bg>
   );

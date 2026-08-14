@@ -1,11 +1,12 @@
 import { createContext } from "react";
 
-type ThemeContextProp = {
-  theme: string;
-  onSet: () => void;
+export type Theme = "light" | "dark";
+
+export type ThemeContextType = {
+  theme: Theme;
+  setTheme: React.Dispatch<React.SetStateAction<Theme>>;
 };
 
-export const ThemeContext = createContext<ThemeContextProp>({
-  theme: "light",
-  onSet: () => {},
-});
+export const ThemeContext = createContext<ThemeContextType | undefined>(
+  undefined,
+);

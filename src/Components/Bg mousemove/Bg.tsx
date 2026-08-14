@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useRef } from "react";
 import Header from "../Header/Header";
-import { ThemeContext } from "../../ThemeContext";
 
 type Bgprops = {
   children: React.ReactNode;
@@ -49,10 +48,8 @@ const Bg = ({ children }: Bgprops) => {
         } as React.CSSProperties
       }
     >
-      <ThemeContext.Provider value={{ theme, onSet }}>
-        <Header onSet={onSet} themeState={theme} />
-        {children}
-      </ThemeContext.Provider>
+      <Header onSet={onSet} themeState={theme} />
+      {children}
     </div>
   );
 };
