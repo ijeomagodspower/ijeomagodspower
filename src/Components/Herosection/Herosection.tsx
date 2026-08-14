@@ -60,16 +60,18 @@ const Herosection = () => {
             </p>
           </div>
 
-          <div className="flex flex-wrap  mt-8 -ml-10 gap-8 font-sora sm:ml-0 sm:mt-5 pl-2 sm:pl-0 ">
+          <div className="flex flex-row flex-wrap mt-8 -ml-10 gap-4 font-sora sm:ml-0 sm:mt-5 pl-2 sm:pl-0 ">
             <button
-              className="flex px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-sm rounded-full text-lightbg bg-primary font-bold 
+              className="flex px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-lg rounded-full text-lightbg bg-primary font-bold 
             transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
             "
             >
               View My Work <ArrowBigRight />
             </button>
+
             <button
-              className="px-6 sm:px-8 py-4 items-center text-center cursor-pointer text-sm border-2 rounded-full font-bold 
+              className="border-lightbg border-2 basis-1/2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
+              text-center cursor-pointer text-lg rounded-full font-bold sm:basis-1/4
             transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg 
             "
             >
