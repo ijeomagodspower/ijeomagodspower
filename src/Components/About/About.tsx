@@ -35,7 +35,7 @@ const About = () => {
             />
 
             <div className="hidden w-full h-full p-5 bg-lightbg rounded-3xl md:flex md:flex-col md:flex-wrap md:justify-start ">
-              <div className="flex flex-row w-full justify-between">
+              {/*<div className="flex flex-row w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">About Me</h4>
                 <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
               </div>
@@ -50,6 +50,24 @@ const About = () => {
                   become a better developer. I primarily work with React,
                   TypeScript, JavaScript, Tailwind CSS, HTML, and CSS, and I
                   also have experience building websites with WordPress.
+                </p>
+              </div> */}
+              <div className="flex flex-row w-full justify-between">
+                <h4 className="text-2xl font-bold font-inter ">About Me</h4>
+                <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
+              </div>
+              <div className="flex flex-col flex-wrap w-full space-y-2 min-h-full ">
+                <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary "></div>
+                <p className="break-all whitespace-normal indent-10 ">
+                  I enjoy bringing ideas to life on the web. My journey into web
+                  development started with curiosity and has grown into a
+                  passion for building websites and applications that people
+                  genuinely enjoy using. Over the past year, I've dedicated
+                  myself to learning, experimenting, and creating projects that
+                  challenge me to become a better developer every day. I
+                  primarily work with React, TypeScript, JavaScript, Tailwind
+                  CSS, HTML, and CSS, and I also have experience building
+                  websites with WordPress.
                 </p>
               </div>
             </div>
@@ -121,10 +139,10 @@ const About = () => {
             </div>
           </div>
 
-          {/*Mobile Focus section
+          {/*Mobile Focus sectionn*/}
           <div className="flex flex-col flex-wrap min-w-full px-2 py-4 h-full bg-lightbg rounded-3xl md:hidden">
             {/* Focus Section */}
-          {/*
+
             <div className="flex flex-row flex-wrap min-w-full justify-between">
               <h4 className="text-2xl font-bold font-inter ">Focus</h4>
               <Circle className="w-4 h-4 text-primary bg-hover-primary rounded-full animate-pulse " />
@@ -163,7 +181,6 @@ const About = () => {
               </span>
             </div>
           </div>
-          */}
 
           <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:flex sm:basis-[calc(30%-12px)] rounded-3xl">
             <img

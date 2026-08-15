@@ -52,7 +52,7 @@ const Herosection = () => {
             </p>
           </div>
 
-          <div className="flex flex-row flex-wrap mt-8 -ml-10 gap-4 font-sora sm:ml-0 sm:mt-5 pl-2 sm:pl-0 ">
+          <div className="flex flex-row flex-wrap w-full mt-8 -ml-10 gap-4 font-sora sm:ml-0 sm:mt-5 ">
             <a href="#projects">
               <button
                 className="flex flex-row gap-4 px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-md rounded-full text-lightbg bg-primary font-bold 
