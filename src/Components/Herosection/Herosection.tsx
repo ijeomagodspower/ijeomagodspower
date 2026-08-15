@@ -52,22 +52,10 @@ const Herosection = () => {
             </p>
           </div>
 
-          <div className="flex flex-row flex-wrap mt-8 -ml-10 gap-4 font-sora ">
-            <span
-              className="flex flex-row flex-wrap gap-4 px-6 sm:px-8 py-4 items-center cursor-pointer 
-              text-center text-md rounded-full text-lightbg bg-primary font-bold 
-            transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
-            "
-            >
-              <a href="#projects" className="flex flex-row">
-                My Work
-              </a>
-              <ArrowBigRight />
-            </span>
-
+          <div className="flex flex-row flex-wrap w-full mt-8 -ml-10 gap-4 font-sora ">
             <span
               className="flex flex-row border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
-              text-center cursor-pointer text-md rounded-full font-bold basis-1/2 sm:basis-1/4
+              text-center cursor-pointer text-md rounded-full font-bold basis-3/4 sm:basis-1/4
             transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
             "
             >
@@ -77,6 +65,7 @@ const Herosection = () => {
                 target="_blank"
               >
                 Contact Me
+                <ArrowBigRight className="text-white" />
               </a>
             </span>
           </div>
