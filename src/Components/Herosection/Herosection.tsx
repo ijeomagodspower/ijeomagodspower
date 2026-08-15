@@ -59,7 +59,9 @@ const Herosection = () => {
             transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
             "
             >
-              <a href="#projects">My Work</a>
+              <a href="#projects" className="flex flex-row">
+                My Work
+              </a>
               <ArrowBigRight />
             </span>
 
@@ -71,7 +73,7 @@ const Herosection = () => {
             >
               <a
                 href="https://wa.me/2348133235527"
-                className="ml-2"
+                className="ml-2 flex flex-row"
                 target="_blank"
               >
                 Contact Me

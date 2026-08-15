@@ -34,7 +34,7 @@ const About = () => {
               className=" w-full h-full bg-cover object-cover rounded-3xl md:hidden"
             />
 
-            <div className="hidden w-full h-full p-5 bg-lightbg rounded-3xl md:flex md:flex-col md:flex-wrap md:justify-start ">
+            <div className="hidden h-full p-5 bg-lightbg rounded-3xl basis-3/4 md:flex md:flex-col md:flex-wrap md:justify-start ">
               {/*<div className="flex flex-row w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">About Me</h4>
                 <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
