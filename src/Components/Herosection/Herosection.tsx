@@ -16,7 +16,7 @@ const Herosection = () => {
       className="flex flex-col items-center gap-y-40 sm:flex-row"
     >
       <div className="flex justify-between mt-30 sm:mt-35">
-        <div className="flex flex-col social-icon-con gap-22 pl-2 pr-3 items-start sm:gap-21.5 sm:pt-6 sm:pr-5 sm:pl-3">
+        <div className="flex flex-col social-icon-con gap-20.5 pl-2 pr-3 items-start sm:gap-21.5 sm:pt-6 sm:pr-5 sm:pl-3">
           <a href="www.linkedin.com/in/ijeoma-ejeh-90540133a" target="_blank">
             <FaLinkedin className="text-primary hover:text-secondary w-6 h-6 hover:scale-120 transition-all duration-300" />
           </a>
@@ -52,28 +52,30 @@ const Herosection = () => {
             </p>
           </div>
 
-          <div className="flex flex-row flex-wrap w-full mt-8 -ml-10 gap-4 font-sora sm:ml-0 sm:mt-5 ">
-            <a
-              href="#projects"
+          <div className="flex flex-row flex-wrap mt-8 -ml-10 gap-4 font-sora sm:ml-0 sm:mt-5 pl-2 sm:pl-0 ">
+            <button
               className="flex flex-row gap-4 px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-md rounded-full text-lightbg bg-primary font-bold 
             transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
             "
             >
-              <span>
-                My Work
-                <ArrowBigRight />
-              </span>
-            </a>
+              <a href="#projects">My Work</a>
+              <ArrowBigRight />
+            </button>
 
-            <a
-              href="https://wa.me/2348133235527"
-              className="flex flex-row gap-4 px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-md rounded-full text-lightbg bg-primary font-bold 
-            transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
+            <button
+              className="border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
+              text-center cursor-pointer text-md rounded-full font-bold
+            transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
             "
-              target="_blank"
             >
-              <span>Contact Me</span>
-            </a>
+              <a
+                href="https://wa.me/2348133235527"
+                className="ml-2"
+                target="_blank"
+              >
+                Contact Me
+              </a>
+            </button>
           </div>
         </div>
       </div>
