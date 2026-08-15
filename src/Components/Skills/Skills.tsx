@@ -17,27 +17,27 @@ const Skills = () => {
         className="grid grid-cols-2 grid-rows-3 min-w-full min-h-full gap-4 px-2 py-4 justify-center item-center 
       font-sora "
       >
-        <div className="flex flex-row bg-linear-to-br from-secondary/70 via-primary/50 to-secondary/70 px-2 py-4 gap-3 rounded-3xl items-center">
+        <div className="flex flex-row bg-linear-to-br from-lightbg via-secondary/70 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaJs className="text-4xl text-yellow-500" />
           <p>JS</p>
         </div>
-        <div className="flex flex-row bg-linear-to-br from-secondary/70 via-primary/50 to-secondary/70 px-2 py-4 gap-3 rounded-3xl items-center">
+        <div className="flex flex-row bg-linear-to-br from-lightbg via-secondary/70 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaHtml5 className="text-4xl text-orange-500" />
           <p>HTML</p>
         </div>
-        <div className="flex flex-row bg-linear-to-br from-secondary/70 via-primary/50 to-secondary/70 px-2 py-4 gap-3 rounded-3xl items-center">
+        <div className="flex flex-row bg-linear-to-br from-lightbg via-secondary/70 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaCss3Alt className="text-4xl text-blue-500" />
           <p>CSS</p>
         </div>
-        <div className="flex flex-row bg-linear-to-br from-secondary/70 via-primary/50 to-secondary/70 px-2 py-4 gap-3 rounded-3xl items-center">
+        <div className="flex flex-row bg-linear-to-br from-lightbg via-secondary/70 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaReact className="text-4xl text-blue-500" />
           <p>React</p>
         </div>
-        <div className="flex flex-row bg-linear-to-br from-secondary/70 via-primary/50 to-secondary/70 px-2 py-4 gap-3 rounded-3xl items-center">
+        <div className="flex flex-row bg-linear-to-br from-lightbg via-secondary/70 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaGithub className="text-4xl text-orange-500" />
           <p>GitHub</p>
         </div>
-        <div className="flex flex-row bg-linear-to-br from-secondary/70 via-primary/50 to-secondary/70 px-2 py-4 gap-3 rounded-3xl items-center">
+        <div className="flex flex-row bg-linear-to-br from-lightbg via-secondary/70 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <SiTailwindcss className="text-4xl text-blue-500" />
           <p>Tailwind Css</p>
         </div>
