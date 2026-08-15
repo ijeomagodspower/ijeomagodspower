@@ -47,12 +47,13 @@ const Herosection = () => {
               Creating modern, responsive, and user friendly web-applications
             </p>
             <p className="hidden font-sora text-secondary sm:text-lg sm:flex ">
-              Creating modern, responsive, and user friendly web-applications, I
-              build systems that solve practical problems with good exp.
+              Creating modern, responsive, and user friendly web-applications,
+              <br /> I build systems that solve practical problems with good
+              experience.
             </p>
           </div>
 
-          <div className="flex flex-row flex-wrap w-full mt-8 -ml-10 gap-4 font-sora ">
+          <div className="flex flex-row flex-wrap w-full mt-8 -ml-10 font-sora ">
             <span
               className="flex flex-row border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
               text-center cursor-pointer text-md rounded-full font-bold basis-[calc(100%-20px)] sm:basis-2/4
@@ -61,7 +62,7 @@ const Herosection = () => {
             >
               <a
                 href="https://wa.me/2348133235527"
-                className="flex flex-row gap-15"
+                className="flex flex-row gap-25 md:40"
                 target="_blank"
               >
                 Contact Me
