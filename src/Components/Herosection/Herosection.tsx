@@ -42,40 +42,42 @@ const Herosection = () => {
               Hi, i'm Ijeoma Godspower
             </h1>
             <p className="font-sora text-secondary sm:text-lg sm:hidden ">
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxx Building Innovative Systems
+              Building Innovative Systems
               <br />
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxx
+              Creating modern, responsive, and user friendly web-applications
             </p>
             <p className="hidden font-sora text-secondary sm:text-lg sm:flex ">
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+              Creating modern, responsive, and user friendly web-applications, I
+              build systems that solve practical problems with good exp.
             </p>
           </div>
 
-          <div className="flex flex-wrap mt-8 -ml-10 gap-4 font-sora sm:ml-0 sm:mt-5 pl-2 sm:pl-0 ">
-            <button
-              className="flex flex-row gap-4 px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-md rounded-full text-lightbg bg-primary font-bold 
+          <div className="flex flex-row flex-wrap mt-8 -ml-10 gap-4 font-sora sm:ml-0 sm:mt-5 pl-2 sm:pl-0 ">
+            <a href="#projects">
+              <button
+                className="flex flex-row gap-4 px-6 sm:px-8 py-4 items-center cursor-pointer text-center text-md rounded-full text-lightbg bg-primary font-bold 
             transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg basis-1/2 sm:basis-1/4
             "
-            >
-              <a href="#projects">My Work</a>
-              <ArrowBigRight />
-            </button>
+              >
+                My Work
+                <ArrowBigRight />
+              </button>
+            </a>
 
-            <button
-              className="border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
-              text-center cursor-pointer text-md rounded-full font-bold
+            <a
+              href="https://wa.me/2348133235527"
+              className="ml-2"
+              target="_blank"
+            >
+              <button
+                className="border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
+              text-center cursor-pointer text-md rounded-full font-bold basis-1/2 sm:basis-1/4
             transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
             "
-            >
-              <a
-                href="https://wa.me/2348133235527"
-                className="ml-2"
-                target="_blank"
               >
                 Contact Me
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
         </div>
       </div>

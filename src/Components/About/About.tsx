@@ -34,14 +34,14 @@ const About = () => {
               className=" w-full h-full bg-cover object-cover rounded-3xl md:hidden"
             />
 
-            <div className="hidden w-full p-5 bg-lightbg rounded-3xl md:flex md:flex-col md:flex-wrap md:justify-start ">
+            <div className="hidden w-full h-full p-5 bg-lightbg rounded-3xl md:flex md:flex-col md:flex-wrap md:justify-start ">
               <div className="flex flex-row w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">About Me</h4>
                 <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
               </div>
               <div className="flex flex-col flex-wrap w-full min-h-full space-y-4">
                 <div className=" w-10 border-t-2 border-dashed mt-4 mb-4 border-primary"></div>
-                <p className="break-normal ">
+                <p className="break-normal flex flex-wrap ">
                   I enjoy bringing ideas to life on the web. My journey into web
                   development started with curiosity and has grown into a
                   passion for building websites that people genuinely enjoy

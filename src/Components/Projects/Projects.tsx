@@ -79,7 +79,7 @@ const Projects = () => {
         {/* Project 2 */}
 
         <div className="flex flex-col gap-y-6 basis-full sm:basis-[calc(50%-12px)]">
-          <div className="flex flex-row justify-between w-full px-4">
+          <div className="flex flex-row flex-wrap justify-between w-full px-4">
             <h3
               className={` ${txtSwPry} text-2xl sm:text-3xl font-bold text-lightbg `}
             >
@@ -88,7 +88,7 @@ const Projects = () => {
             <a
               href="https://js-user-data-form.vercel.app/"
               target="_blank"
-              className="flex flex-row gap-2 px-2 items-center text-center text-sm text-primary bg-lightbg 
+              className="flex flex-row flex-wrap gap-2 px-2 items-center text-center text-sm text-primary bg-lightbg 
             cursor-pointer border-none rounded-full transition-all duration-300 scale-120 hover:text-lightbg hover:bg-primary"
             >
               <span>View</span>
