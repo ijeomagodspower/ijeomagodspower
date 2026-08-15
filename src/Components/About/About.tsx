@@ -34,13 +34,13 @@ const About = () => {
               className=" w-full h-full bg-cover object-cover rounded-3xl md:hidden"
             />
 
-            <div className="hidden w-full p-5 flex-wrap bg-lightbg rounded-3xl sm:flex sm:flex-col ">
+            <div className="hidden w-full p-5 bg-lightbg rounded-3xl md:flex md:flex-col md:flex-wrap md:justify-start ">
               <div className="flex flex-row w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">About Me</h4>
                 <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
               </div>
-              <div className=" w-10 border-t-2 border-dashed mt-4 mb-4 border-primary"></div>
-              <div>
+              <div className="flex flex-col flex-wrap w-full min-h-full space-y-4">
+                <div className=" w-10 border-t-2 border-dashed mt-4 mb-4 border-primary"></div>
                 <p className="break-normal ">
                   I enjoy bringing ideas to life on the web. My journey into web
                   development started with curiosity and has grown into a
@@ -61,7 +61,7 @@ const About = () => {
         <div className="flex flex-col flex-wrap w-full min-w-full space-y-2 sm:space-x-6 sm:flex-row">
           {/* Section Start */}
 
-          <div className="flex flex-col flex-wrap h-100 px-2 py-4 bg-lightbg md:p-4 md:w-3/4 rounded-3xl ">
+          <div className="flex flex-col flex-wrap h-100 px-2 py-4 bg-lightbg md:p-4 md:basis-[calc(70%-12px)] rounded-3xl ">
             {/* MOBILE ABOUT STORY */}
             <div className="flex flex-col w-full justify-between md:hidden">
               <div className="flex flex-row w-full justify-between">
@@ -165,7 +165,7 @@ const About = () => {
           </div>
           */}
 
-          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:flex md:w-1/4 rounded-3xl">
+          <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:flex sm:basis-[calc(30%-12px)] rounded-3xl">
             <img
               src={MyPhoto}
               className="min-w-full min-h-full object-cover rounded-3xl "
