@@ -55,8 +55,8 @@ const Herosection = () => {
 
           <div className="flex flex-wrap w-full mt-8 -ml-10 font-sora ">
             <span
-              className="flex border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
-              text-center cursor-pointer text-md rounded-full font-bold basis-[calc(80%-20px)] sm:basis-2/4
+              className="flex w-[calc(100%-40px)] sm:w-2/4 border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
+              text-center cursor-pointer text-md rounded-full font-bold 
               transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
             "
             >
