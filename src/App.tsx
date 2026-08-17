@@ -15,13 +15,13 @@ function App() {
       <div className="min-full sm:min-w-11/12 my-40 sm:px-20">
         <About />
       </div>
-      <div className="min-full sm:min-w-11/12 my-10 sm:px-20">
+      <div className="min-full sm:min-w-11/12 my-15 sm:px-20">
         <Projects />
       </div>
-      <div className="min-full sm:min-w-11/12 my-10 sm:px-20">
+      <div className="min-full sm:min-w-11/12 my-15 sm:px-20">
         <Skills />
       </div>
-      <div className="min-full sm:min-w-11/12 my-10 sm:px-20">
+      <div className="min-full sm:min-w-11/12 my-20 sm:px-20">
         <Contact />
       </div>
     </Bg>
