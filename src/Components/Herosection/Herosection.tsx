@@ -53,16 +53,16 @@ const Herosection = () => {
             </p>
           </div>
 
-          <div className="flex flex-row flex-wrap w-full mt-8 -ml-10 font-sora ">
+          <div className="flex flex-wrap w-full mt-8 -ml-10 font-sora ">
             <span
-              className="flex flex-row border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
-              text-center cursor-pointer text-md rounded-full font-bold basis-[calc(100%-20px)] sm:basis-2/4
-            transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
+              className="flex border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
+              text-center cursor-pointer text-md rounded-full font-bold basis-[calc(80%-20px)] sm:basis-2/4
+              transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
             "
             >
               <a
                 href="https://wa.me/2348133235527"
-                className="flex flex-row w-full gap-22 md:70"
+                className="flex flex-row w-full gap-22 md:40"
                 target="_blank"
               >
                 Contact Me

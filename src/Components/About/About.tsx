@@ -11,7 +11,7 @@ const About = () => {
     >
       {/*About Grid Container 1*/}
       <div className="min-w-full flex-col flex-wrap overflow-hidden space-y-2 sm:space-y-6 place-items-center text-bodytext ">
-        <div className="flex flex-row min-w-full sm:space-x-6 space-x-2 ">
+        <div className="flex flex-row w-full sm:space-x-6 space-x-2 ">
           <div
             className="flex flex-col flex-wrap place-content-center break-all p-1 bg-lightbg text-bodytext
            rounded-3xl w-2/4 h-50 md:h-60 md:w-1/4 text-center items-center "
