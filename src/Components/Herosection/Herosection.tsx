@@ -59,17 +59,17 @@ const Herosection = () => {
           >
             <span
               className="flex w-full border-lightbg border-2 text-lightbg bg-secondary 
-              px-6 py-4 md:px-8 items-center text-center  cursor-pointer text-md rounded-full font-bold 
+              px-6 py-4 md:px-8 items-center text-center  cursor-pointer rounded-full font-bold 
               transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
             "
             >
               <a
                 href="https://wa.me/2348133235527"
-                className="flex w-full gap-30"
+                className="flex w-full gap-25 text-lg"
                 target="_blank"
               >
                 Contact Me
-                <CircleArrowOutUpRight className="w-8 h-8 stroke-3 text-white hover:text-hover-primary" />
+                <CircleArrowOutUpRight className="w-6 h-6 stroke-3 text-white hover:text-hover-primary" />
               </a>
             </span>
           </div>
