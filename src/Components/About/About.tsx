@@ -14,7 +14,7 @@ const About = () => {
         <div className="flex flex-row min-w-full sm:space-x-6 space-x-2 ">
           <div
             className="flex flex-col flex-wrap place-content-center break-all p-1 bg-lightbg text-bodytext
-           rounded-3xl w-2/4 h-50 sm:h-60 sm:w-1/4 text-center items-center "
+           rounded-3xl w-2/4 h-50 md:h-60 md:w-1/4 text-center items-center "
           >
             <h3 className="text-2xl text-center font-bold font-inter ">
               IJEOMA <br /> GODSPOWER
@@ -24,7 +24,7 @@ const About = () => {
           </div>
 
           <div
-            className="flex w-2/4 h-50 sm:h-60 bg-cover overflow-hidden object-cover bg-lightbg rounded-3xl
+            className="flex w-2/4 h-50 md:h-60 bg-cover overflow-hidden object-cover bg-lightbg rounded-3xl
            md:w-3/4 "
           >
             {/*Mobile PHoto section*/}
@@ -140,25 +140,25 @@ const About = () => {
               </span>
               <span className="flex flex-row gap-3 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
-                <h3 className="break-words">
+                <h3 className="wrap-break">
                   Developing powerful websites with WordPress.
                 </h3>
               </span>
               <span className="flex flex-row gap-3  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
-                <h3 className="break-words">
+                <h3 className="wrap-break">
                   Focused on becoming a Full Stack Developer.
                 </h3>
               </span>
               <span className="flex flex-row gap-3  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
-                <h3 className="break-words">
+                <h3 className="wrap-break">
                   Contributing solutions in various sectors.
                 </h3>
               </span>
               <span className="flex flex-row gap-3  font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400" />
-                <h3 className="break-words">
+                <h3 className="wrap-break">
                   Open to collab and remote opportunities.
                 </h3>
               </span>
