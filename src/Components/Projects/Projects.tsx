@@ -50,7 +50,7 @@ const Projects = () => {
               <CircleArrowOutUpRight className="w-3 h-3" />
             </a>
           </div>
-          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 ">
+          <div className="flex bg-white/15 border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 ">
             <img
               src={Capstone}
               alt="Capstone Project"
@@ -95,7 +95,7 @@ const Projects = () => {
               <CircleArrowOutUpRight className="w-3 h-3" />
             </a>
           </div>
-          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 ">
+          <div className="flex bg-white/15 border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 ">
             <img
               src={UserForm}
               alt="User Data Form Project"
@@ -140,7 +140,7 @@ const Projects = () => {
               <CircleArrowOutUpRight className="w-3 h-3" />
             </a>
           </div>
-          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 ">
+          <div className="flex bg-white/15 border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 ">
             <img
               src={Glnd}
               alt="Golden Life Nature Project"
@@ -175,7 +175,7 @@ const Projects = () => {
               <CircleArrowOutUpRight className="w-3 h-3" />
             </a>
           </div>
-          <div className="flex bg-white/15 border-white/20 backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl h-80 ">
+          <div className="flex bg-white/15 bokdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl h-80 ">
             <img
               src={Tevik}
               alt="Tevik Extract Project"

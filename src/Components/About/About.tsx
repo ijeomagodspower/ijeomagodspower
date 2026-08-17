@@ -24,7 +24,7 @@ const About = () => {
           </div>
 
           <div
-            className="flex w-2/4 h-50 md:h-60 bg-cover overflow-hidden object-cover bg-lightbg rounded-3xl
+            className="flex w-2/4 h-50 md:h-60 bg-cover overflow-hidden bg-lightbg rounded-3xl
            md:w-3/4 "
           >
             {/*Mobile PHoto section*/}
@@ -134,7 +134,7 @@ const About = () => {
             <div className="flex-col flex-wrap w-full space-y-4 px-2">
               <span className="flex flex-row gap-3 font-bold align ">
                 <FaCode className="w-4 h-4 mt-1 text-yellow-400 " />
-                <h3 className="break-words">
+                <h3 className="wrap-break">
                   Building modern interfaces with React.
                 </h3>
               </span>
