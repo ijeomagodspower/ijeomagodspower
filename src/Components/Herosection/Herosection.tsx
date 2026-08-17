@@ -62,7 +62,7 @@ const Herosection = () => {
             >
               <a
                 href="https://wa.me/2348133235527"
-                className="flex flex-row w-full gap-22 md:50"
+                className="flex flex-row w-full gap-22 md:70"
                 target="_blank"
               >
                 Contact Me

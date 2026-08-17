@@ -15,7 +15,7 @@ const Skills = () => {
       </div>
       <div
         className="grid grid-cols-2 grid-rows-3 min-w-full min-h-full gap-4 px-2 py-4 justify-center item-center 
-      font-sora "
+      font-sora font-bold"
       >
         <div className="flex flex-row bg-linear-to-br from-lightbg via-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaJs className="text-4xl text-yellow-500" />

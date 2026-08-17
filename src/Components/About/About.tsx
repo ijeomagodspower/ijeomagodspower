@@ -34,13 +34,13 @@ const About = () => {
               className=" w-full h-full bg-cover object-cover rounded-3xl md:hidden"
             />
 
-            <div className="hidden h-full p-5 bg-lightbg rounded-3xl md:flex md:flex-col md:flex-wrap md:justify-start ">
+            <div className="hidden h-full p-5 bg-lightbg rounded-3xl md:flex md:flex-col md:justify-start ">
               <div className="flex flex-row w-full justify-between">
                 <h4 className="text-2xl font-bold font-inter ">About Me</h4>
                 <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
               </div>
-              <div className="flex flex-col flex-wrap w-full min-h-full space-y-2">
-                <div className=" w-full border-t-2 border-dashed mt-4 mb-8 border-primary "></div>
+              <div className="flex flex-col flex-wrap w-full min-h-full space-y-2 self-start">
+                <div className=" w-10 border-t-2 border-dashed mt-4 mb-8 border-primary "></div>
                 <p className="indent-10 ">
                   I enjoy bringing ideas to life on the web. My journey into web
                   development started with curiosity and has grown into a
@@ -123,7 +123,7 @@ const About = () => {
           </div>
 
           {/*Mobile Focus sectionn*/}
-          <div className="flex flex-col flex-wrap min-w-full px-2 py-4 h-full bg-lightbg rounded-3xl md:hidden">
+          <div className="flex flex-col min-w-full px-2 py-4 h-full bg-lightbg rounded-3xl md:hidden">
             {/* Focus Section */}
 
             <div className="flex flex-row flex-wrap min-w-full justify-between">
@@ -168,7 +168,7 @@ const About = () => {
           <div className="hidden h-100 overflow-hidden bg-cover flex-wrap bg-lightbg md:flex sm:basis-[calc(30%-12px)] rounded-3xl">
             <img
               src={MyPhoto}
-              className="min-w-full min-h-full object-cover rounded-3xl "
+              className="min-w-full min-h-full object-cover rounded-3xl"
             />
           </div>
         </div>
