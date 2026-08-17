@@ -53,7 +53,10 @@ const Herosection = () => {
             </p>
           </div>
 
-          <div className="flex w-full mt-8 -ml-10 font-sora " id="Pry-Button">
+          <div
+            className="flex w-full md:w-[calc(100%-40px)] mt-8 -ml-10 font-sora "
+            id="Pry-Button"
+          >
             <span
               className="flex w-full border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
               text-center cursor-pointer text-md rounded-full font-bold 
