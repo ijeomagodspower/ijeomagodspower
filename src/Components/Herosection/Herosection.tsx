@@ -76,10 +76,10 @@ const Herosection = () => {
         </div>
       </div>
 
-      <div className="flex animate-bounce-slow overflow-hidden bg-transparent ">
+      <div className="flex animate-bounce-slow overflow-hidden border-transparent rounded-full bg-transparent ">
         <img
           src={Cyberhead}
-          className="sm:w-110 sm:h-105 w-70 h-70 shadow-[0_8px_32px_rgba(31,38,135,0.15)] rounded-full bg-transparent"
+          className="sm:w-110 sm:h-105 w-70 h-70 shadow-[0_8px_32px_rgba(31,38,135,0.8)] rounded-full bg-transparent"
         ></img>
       </div>
     </section>
