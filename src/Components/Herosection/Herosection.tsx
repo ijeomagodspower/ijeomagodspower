@@ -54,22 +54,22 @@ const Herosection = () => {
           </div>
 
           <div
-            className="flex w-full md:w-1/3 mt-8 -ml-10 font-sora "
+            className="flex w-full md:w-1/2 mt-8 -ml-10 font-sora "
             id="Pry-Button"
           >
             <span
-              className="flex w-full border-lightbg border-2 text-lightbg bg-secondary px-6 sm:px-8 py-4 items-center 
-              text-center cursor-pointer text-md rounded-full font-bold 
+              className="flex w-full border-lightbg border-2 text-lightbg bg-secondary 
+              px-6 py-4 md:px-8  items-center text-center cursor-pointer text-md rounded-full font-bold 
               transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
             "
             >
               <a
                 href="https://wa.me/2348133235527"
-                className="flex flex-row w-full gap-20 md:20"
+                className="flex w-full gap-20 md:20"
                 target="_blank"
               >
                 Contact Me
-                <ArrowBigRight className="text-white" />
+                <ArrowBigRight className="text-white hover:text-hover-primary" />
               </a>
             </span>
           </div>
