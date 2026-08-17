@@ -4,7 +4,7 @@ import Herosection from "./Components/Herosection/Herosection";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
-import Contact from "./Components/Contact";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
