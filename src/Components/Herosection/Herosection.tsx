@@ -54,7 +54,7 @@ const Herosection = () => {
           </div>
 
           <div
-            className="flex w-full md:w-1/2 mt-8 -ml-10 font-sora "
+            className="flex w-full md:w-70 mt-8 -ml-10 font-sora "
             id="Pry-Button"
           >
             <span
