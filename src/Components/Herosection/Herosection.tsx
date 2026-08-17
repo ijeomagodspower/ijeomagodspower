@@ -65,11 +65,11 @@ const Herosection = () => {
             >
               <a
                 href="https://wa.me/2348133235527"
-                className="flex w-full gap-25 text-lg"
+                className="flex w-full justify-between text-lg"
                 target="_blank"
               >
                 Contact Me
-                <CircleArrowOutUpRight className="w-6 h-6 stroke-3 text-white hover:text-hover-primary" />
+                <CircleArrowOutUpRight className="stroke-2 text-white hover:text-primary" />
               </a>
             </span>
           </div>
