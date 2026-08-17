@@ -79,7 +79,7 @@ const Herosection = () => {
       <div className="flex animate-bounce-slow overflow-hidden ">
         <img
           src={Cyberhead}
-          className="sm:w-150 sm:h-105 w-70 h-70 shadow-[0_8px_32px_rgba(31,38,135,0.15)] rounded-full bo backdrop-blur-xl"
+          className="sm:w-130 sm:h-105 w-70 h-70 shadow-[0_8px_32px_rgba(31,38,135,0.15)] rounded-full"
         ></img>
       </div>
     </section>

@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex rounded-3xl px-2 pt-2 sm:px-6 sm:py-6 bg-white/15 backdrop-blur-xl border border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] 
+      className="flex rounded-3xl px-2 pt-2 sm:px-6 sm:py-6 bg-white/15 border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] 
     "
     >
       {/*About Grid Container 1*/}
