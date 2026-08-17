@@ -21,7 +21,7 @@ function App() {
       <div className="min-full sm:min-w-11/12 my-15 sm:px-20">
         <Skills />
       </div>
-      <div className="min-full sm:min-w-11/12 my-20 sm:px-20">
+      <div className="min-full sm:min-w-11/12 my-30 sm:px-20">
         <Contact />
       </div>
     </Bg>

@@ -1,4 +1,4 @@
-import { ArrowBigRight } from "lucide-react";
+import { CircleArrowOutUpRight } from "lucide-react";
 import Cyberhead from "../../../src/assets/cybereye.svg";
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 import { useContext } from "react";
@@ -59,17 +59,17 @@ const Herosection = () => {
           >
             <span
               className="flex w-full border-lightbg border-2 text-lightbg bg-secondary 
-              px-6 py-4 md:px-8  items-center text-center cursor-pointer text-md rounded-full font-bold 
+              px-6 py-4 md:px-8  items-center text-center text-2xl cursor-pointer text-md rounded-full font-bold 
               transition-all duration-300 hover:scale-120 hover:text-primary hover:bg-lightbg 
             "
             >
               <a
                 href="https://wa.me/2348133235527"
-                className="flex w-full gap-20 md:25"
+                className="flex w-full gap-30"
                 target="_blank"
               >
                 Contact Me
-                <ArrowBigRight className="text-white hover:text-hover-primary" />
+                <CircleArrowOutUpRight className="w-6 h-6 text-white hover:text-hover-primary" />
               </a>
             </span>
           </div>
