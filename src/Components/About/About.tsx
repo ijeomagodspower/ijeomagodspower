@@ -1,6 +1,7 @@
 import MyPhoto from "../../assets/My-photo.png";
 import { Circle } from "lucide-react";
 import { FaCode } from "react-icons/fa";
+import ShinyText from "../../../@/components/ShinyText";
 
 const About = () => {
   return (
@@ -36,7 +37,19 @@ const About = () => {
 
             <div className="hidden h-full p-5 bg-lightbg rounded-3xl md:flex md:flex-col md:justify-start ">
               <div className="flex flex-row w-full justify-between">
-                <h4 className="text-2xl font-bold font-inter ">About Me</h4>
+                <ShinyText
+                  text="About Me"
+                  speed={2}
+                  delay={0}
+                  color="#454346"
+                  shineColor="#ffffff"
+                  spread={120}
+                  direction="left"
+                  yoyo={false}
+                  pauseOnHover={false}
+                  disabled={false}
+                  className="text-2xl font-bold font-inter"
+                />
                 <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
               </div>
               <div className="flex flex-col flex-wrap w-full min-h-full space-y-2 self-start">
@@ -66,7 +79,19 @@ const About = () => {
             {/* MOBILE ABOUT STORY */}
             <div className="flex flex-col w-full justify-between md:hidden">
               <div className="flex flex-row w-full justify-between">
-                <h4 className="text-2xl font-bold font-inter ">About Me</h4>
+                <ShinyText
+                  text="About Me"
+                  speed={2}
+                  delay={0}
+                  color="#454346"
+                  shineColor="#ffffff"
+                  spread={120}
+                  direction="left"
+                  yoyo={false}
+                  pauseOnHover={false}
+                  disabled={false}
+                  className="text-2xl font-bold font-inter"
+                />
                 <Circle className="w-4 h-4 text-green-500 bg-green-600 rounded-full animate-pulse " />
               </div>
               <div className="flex flex-col flex-wrap w-full space-y-2 min-h-full">

@@ -32,7 +32,7 @@ const Contact = () => {
       {/*Contact Context */}
       <div className="flex flex-col w-full bg-white/15 border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 md-p-6 rounded-3xl">
         <div
-          className="flex flex-col w-full bg-lightbg rounded-3xl p-2 
+          className="flex flex-col w-full bg-lightbg rounded-3xl p-2 py-6 
        md:flex-row md:p-6
       "
         >
@@ -52,7 +52,7 @@ const Contact = () => {
             />
             <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary"></div>
             <p className="flex-col flex-wrap wrap-break font-sora text-secondary sm:text-lg">
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             </p>
           </div>
           {/* 2nd Col */}

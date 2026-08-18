@@ -8,6 +8,7 @@ import {
   FaWordpress,
 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import ShinyText from "../../../@/components/ShinyText";
 
 const Skills = () => {
   return (
@@ -27,36 +28,132 @@ const Skills = () => {
       >
         <div className="order-6 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaJs className="text-4xl text-yellow-500" />
-          <p>JS</p>
+          <ShinyText
+            text="Js"
+            speed={2}
+            delay={0}
+            color="#821eff"
+            shineColor="#ffffff"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+            className="text-lg font-bold"
+          />
         </div>
         <div className="order-3 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaHtml5 className="text-4xl text-orange-500" />
-          <p>HTML</p>
+          <ShinyText
+            text="HTML"
+            speed={2}
+            delay={0}
+            color="#821eff"
+            shineColor="#ffffff"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+            className="text-lg font-bold"
+          />
         </div>
         <div className="order-7 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaCss3Alt className="text-4xl text-blue-500" />
-          <p>CSS</p>
+          <ShinyText
+            text="CSS"
+            speed={2}
+            delay={0}
+            color="#821eff"
+            shineColor="#ffffff"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+            className="text-lg font-bold"
+          />
         </div>
         <div className="order-1 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaReact className="text-4xl text-blue-500" />
-          <p>React</p>
+          <ShinyText
+            text="React"
+            speed={2}
+            delay={0}
+            color="#821eff"
+            shineColor="#ffffff"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+            className="text-lg font-bold"
+          />
         </div>
         <div className="order-5 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaGithub className="text-4xl text-black" />
-          <p>GitHub</p>
+          <ShinyText
+            text="GitHub"
+            speed={2}
+            delay={0}
+            color="#821eff"
+            shineColor="#ffffff"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+            className="text-lg font-bold"
+          />
         </div>
         <div className="order-4 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaGitAlt className="text-4xl text-orange-500" />
-          <p>Git</p>
+          <ShinyText
+            text="Git"
+            speed={2}
+            delay={0}
+            color="#821eff"
+            shineColor="#ffffff"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+            className="text-lg font-bold"
+          />
         </div>
         <div className="order-8 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <SiTailwindcss className="text-4xl text-blue-500" />
-          <p>Tailwind Css</p>
+          <ShinyText
+            text="Tailwind Css"
+            speed={2}
+            delay={0}
+            color="#821eff"
+            shineColor="#ffffff"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+            className="text-lg font-bold"
+          />
         </div>
 
         <div className="order-2 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaWordpress className="text-4xl text-blue-500" />
-          <p>WordPress</p>
+          <ShinyText
+            text="WordPress"
+            speed={2}
+            delay={0}
+            color="#821eff"
+            shineColor="#ffffff"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+            className="text-lg font-bold"
+          />
         </div>
       </div>
     </div>
