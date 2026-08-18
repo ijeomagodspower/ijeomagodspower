@@ -52,7 +52,7 @@ const Contact = () => {
             />
             <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary"></div>
             <p className="flex-col flex-wrap wrap-break font-sora text-secondary sm:text-lg">
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
             </p>
           </div>
           {/* 2nd Col */}
