@@ -4,6 +4,8 @@ import { FaCode } from "react-icons/fa";
 import ShinyText from "../../../@/components/ShinyText";
 
 const About = () => {
+  const myName = "IJEOMA\nGODSPOWER";
+
   return (
     <section
       id="about"
@@ -18,8 +20,7 @@ const About = () => {
            rounded-3xl w-2/4 h-50 md:h-60 md:w-1/4 text-center items-center "
           >
             <ShinyText
-              text="IJEOMA
-              GODSPOWER"
+              text={myName}
               speed={2}
               delay={0}
               color="#454346"
@@ -29,7 +30,7 @@ const About = () => {
               yoyo={false}
               pauseOnHover={false}
               disabled={false}
-              className="text-2xl wrap-break font-bold font-inter"
+              className="text-2xl  font-bold font-inter"
             />
             <div className=" w-1/4 border-t-2 font-sora border-dashed my-4 border-primary"></div>
             <h3 className="font-sora ">Frontend Developer</h3>
