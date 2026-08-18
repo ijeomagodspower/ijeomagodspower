@@ -4,7 +4,7 @@ import { FaCode } from "react-icons/fa";
 import ShinyText from "../../../@/components/ShinyText";
 
 const About = () => {
-  const myName = "IJEOMA\nGODSPOWER";
+  const myName = "IJEOMA &nbsp GODSPOWER";
 
   return (
     <section
