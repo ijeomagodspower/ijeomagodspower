@@ -8,7 +8,7 @@ const Contact = () => {
   };
 
   const txtSwPry = theme === "light" ? "text-primary" : "text-lightbg";
-  const txtSwSec = theme === "light" ? "text-primary" : "text-secondary";
+
   {
     /*const txtSwSec = theme === "light" ? "text-green" : "text-lightbg"; */
   }
@@ -20,7 +20,7 @@ const Contact = () => {
     >
       <div>
         <h3
-          className={` ${txtSwPry} text-2xl text-lightbg sm:text-4xl font-bold `}
+          className={` ${txtSwPry} text-2xl text-center sm:text-4xl font-bold `}
         >
           Book a Call
         </h3>
@@ -36,12 +36,12 @@ const Contact = () => {
        md:flex-row
       "
         >
-          <div className="flex-col w-full md:w-[calc(100% - 12px)]">
+          <div className="flex-col w-full md:w-[calc(100% - 12px)] p-2">
             <ShinyText
               text="Get in Touch"
               speed={2}
               delay={0}
-              color={txtSwSec}
+              color="#fbb400"
               shineColor="#ffffff"
               spread={120}
               direction="left"
