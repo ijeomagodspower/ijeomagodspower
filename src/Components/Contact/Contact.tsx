@@ -18,7 +18,7 @@ const Contact = () => {
       id="contact"
       className="flex flex-col w-full my-10 justify-center md:w-[calc(100% - 20px)]"
     >
-      <div>
+      <div className="flex-col my-10">
         <h3
           className={` ${txtSwPry} text-2xl text-center sm:text-4xl font-bold `}
         >
@@ -41,15 +41,15 @@ const Contact = () => {
               text="Get in Touch"
               speed={2}
               delay={0}
-              color="#fbb400"
+              color="#00b862"
               shineColor="#ffffff"
               spread={120}
               direction="left"
               yoyo={false}
               pauseOnHover={false}
               disabled={false}
+              className="text-lg md:text-2xl font-bold"
             />
-            <h2 className="text-start text-2xl"></h2>
             <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary"></div>
             <p className="flex-col flex-wrap wrap-break font-sora text-secondary sm:text-lg">
               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
