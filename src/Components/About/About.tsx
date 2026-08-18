@@ -17,9 +17,19 @@ const About = () => {
             className="flex flex-col flex-wrap place-content-center break-all p-1 bg-lightbg text-bodytext
            rounded-3xl w-2/4 h-50 md:h-60 md:w-1/4 text-center items-center "
           >
-            <h3 className="text-2xl text-center font-bold font-inter ">
-              IJEOMA <br /> GODSPOWER
-            </h3>
+            <ShinyText
+              text="IJEOMA GODSPOWER"
+              speed={2}
+              delay={0}
+              color="#454346"
+              shineColor="#ffffff"
+              spread={120}
+              direction="left"
+              yoyo={false}
+              pauseOnHover={false}
+              disabled={false}
+              className="text-2xl wrap-break font-bold font-inter"
+            />
             <div className=" w-1/4 border-t-2 font-sora border-dashed my-4 border-primary"></div>
             <h3 className="font-sora ">Frontend Developer</h3>
           </div>
