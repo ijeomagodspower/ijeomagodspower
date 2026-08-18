@@ -18,11 +18,11 @@ const About = () => {
            rounded-3xl w-2/4 h-50 md:h-60 md:w-1/4 text-center items-center "
           >
             <ShinyText
-              text="Godspower"
+              text="GODSPOWER"
               speed={2}
               delay={0}
               color="#904aff"
-              shineColor="#ffffff"
+              shineColor="#00b862"
               spread={120}
               direction="left"
               yoyo={false}
