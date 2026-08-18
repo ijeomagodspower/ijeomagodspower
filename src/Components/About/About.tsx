@@ -22,7 +22,7 @@ const About = () => {
               speed={2}
               delay={0}
               color="#454346"
-              shineColor="#904aff"
+              shineColor="#ffffff"
               spread={120}
               direction="left"
               yoyo={false}

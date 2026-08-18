@@ -52,7 +52,8 @@ const Contact = () => {
             />
             <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary"></div>
             <p className="flex-col flex-wrap wrap-break font-sora text-secondary sm:text-lg">
-              xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+              Have a project in mind or an idea you’d like to bring to life? I’d
+              love to hear about it. Let’s create something impactful together.
             </p>
           </div>
           {/* 2nd Col */}
