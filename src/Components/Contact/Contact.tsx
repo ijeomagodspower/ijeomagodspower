@@ -32,11 +32,11 @@ const Contact = () => {
       {/*Contact Context */}
       <div className="flex flex-col w-full bg-white/15 border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 md-p-6 rounded-3xl">
         <div
-          className="flex flex-col w-full bg-lightbg rounded-3xl
-       md:flex-row
+          className="flex flex-col w-full bg-lightbg rounded-3xl p-2 
+       md:flex-row md:p-6
       "
         >
-          <div className="flex-col w-full md:w-[calc(100% - 12px)] p-2">
+          <div className="flex-col w-full md:w-[calc(100% - 12px)]">
             <ShinyText
               text="Get in Touch"
               speed={2}
@@ -48,7 +48,7 @@ const Contact = () => {
               yoyo={false}
               pauseOnHover={false}
               disabled={false}
-              className="text-lg md:text-2xl font-bold"
+              className="text-2xl md:text-5xl font-bold"
             />
             <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary"></div>
             <p className="flex-col flex-wrap wrap-break font-sora text-secondary sm:text-lg">
