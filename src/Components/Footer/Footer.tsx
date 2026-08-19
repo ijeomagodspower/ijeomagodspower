@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <section
-      className={`flex-col ${bgTheme} min-w-full py-6 px-4 space-y-4 align-center justify-center sm:flex-row sm:justify-between sm:px-10 `}
+      className={`flex-row ${bgTheme} min-w-full py-6 px-4 space-y-4 align-center justify-center md:flex-row sm:justify-between sm:px-10 `}
       id="Footer"
     >
       <div className="w-full flex-col space-y-4 justify-center sm:flex-row">
