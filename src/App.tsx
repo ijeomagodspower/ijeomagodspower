@@ -26,10 +26,10 @@ function App() {
         <div className="min-full sm:min-w-11/12 my-30 sm:px-20">
           <Contact />
         </div>
-        <div className="min-w-full mt-20">
-          <Footer />
-        </div>
       </Bg>
+      <div className="min-w-full mt-20">
+        <Footer />
+      </div>
     </>
   );
 }
