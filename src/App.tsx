@@ -27,7 +27,7 @@ function App() {
           <Contact />
         </div>
       </Bg>
-      <div className="min-w-full mt-20">
+      <div className="min-w-full">
         <Footer />
       </div>
     </>

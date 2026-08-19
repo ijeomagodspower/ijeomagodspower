@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <section
-      className={` ${bgTheme} min-w-full mt-30 flex h-20 align-center justify-center sm:justify-between `}
+      className={`flex-col ${bgTheme} min-w-full mt-30  h-20 align-center justify-center sm:flex sm:justify-between `}
       id="Footer"
     >
       <div className="w-full p-6 flex-col space-y-4 justify-center sm:flex-row">
