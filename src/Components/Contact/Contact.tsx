@@ -38,7 +38,7 @@ const Contact = () => {
         >
           <div className="flex-col w-full md:w-[calc(100% - 12px)]">
             <ShinyText
-              text="Get in Touch"
+              text="Let's Work Together"
               speed={2}
               delay={0}
               color="#00b862"
@@ -57,7 +57,10 @@ const Contact = () => {
             </p>
           </div>
           {/* 2nd Col */}
-          <div className="flex-col w-full md:w-[calc(100% - 12px)]"></div>
+          <div className="flex-col w-full md:w-[calc(100% - 12px)]">
+            <div></div>
+            <h3></h3>
+          </div>
         </div>
       </div>
     </section>
