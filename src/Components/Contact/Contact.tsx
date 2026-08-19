@@ -36,7 +36,7 @@ const Contact = () => {
       <div className="flex flex-col w-full bg-white/15 border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 md-p-6 rounded-3xl">
         <div
           className="flex flex-col w-full bg-lightbg rounded-3xl p-2 py-6 space-10
-           md:flex-row md:p-6"
+           md:flex-row md:p-6 md:gap-10"
         >
           <div className="flex-col w-full md:w-[calc(100% - 12px)] ">
             <ShinyText
@@ -50,7 +50,20 @@ const Contact = () => {
               yoyo={false}
               pauseOnHover={false}
               disabled={false}
-              className="text-2xl md:text-5xl font-bold"
+              className="font-inter text-2xl font-bold md:hidden "
+            />
+            <ShinyText
+              text="Let's Work Together"
+              speed={2}
+              delay={0}
+              color="#904aff"
+              shineColor="#ffffff"
+              spread={120}
+              direction="left"
+              yoyo={false}
+              pauseOnHover={false}
+              disabled={false}
+              className="hidden font-inter text-5xl font-bold"
             />
             <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary"></div>
             <p className="flex-col flex-wrap wrap-break font-sora text-secondary sm:text-lg">
@@ -59,7 +72,7 @@ const Contact = () => {
             </p>
           </div>
           {/* 2nd Col */}
-          <div className="flex flex-col w-full md:w-[calc(100% - 12px)] text-lg font-bold py-6 space-y-10 pt-10 md:pt-0">
+          <div className="flex flex-col w-full md:w-[calc(100% - 12px)] text-md font-bold py-6 space-y-10 pt-10 md:text-lg md:pt-0">
             <div className="flex-col justify-start align-middle items-center pt-6 space-y-6">
               <div className="flex w-full gap-6 text-secondary items-center">
                 <IoCall className="w-6 h-6 text-secondary" />
