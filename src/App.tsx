@@ -5,6 +5,7 @@ import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/Skills/Skills";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
       </div>
       <div className="min-full sm:min-w-11/12 my-30 sm:px-20">
         <Contact />
+      </div>
+      <div className="min-w-full mt-20 sm:px-20">
+        <Footer />
       </div>
     </Bg>
   );
