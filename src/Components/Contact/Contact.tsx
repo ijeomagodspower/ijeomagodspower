@@ -59,13 +59,13 @@ const Contact = () => {
             </p>
           </div>
           {/* 2nd Col */}
-          <div className="flex-col w-full md:w-[calc(100% - 12px)] text-lg font-bold align-middle space-y-10">
-            <div className="flex-col justify-start align-middle space-y-6">
-              <div className="flex w-full gap-6 text-secondary align-middle">
+          <div className="flex flex-col w-full md:w-[calc(100% - 12px)] text-lg font-bold py-6 space-y-10 pt-10 md:pt-0">
+            <div className="flex-col justify-start align-middle items-center pt-6 space-y-6">
+              <div className="flex w-full gap-6 text-secondary items-center">
                 <IoCall className="w-6 h-6 text-secondary" />
                 <h3>(+234)-8133235527</h3>
               </div>
-              <div className="flex w-full gap-6 text-secondary align-middle">
+              <div className="flex w-full gap-6 text-secondary items-center">
                 <MdEmail className="w-6 h-6 text-secondary" />
                 <h3>ejehijeoma197@gmail.com</h3>
               </div>
