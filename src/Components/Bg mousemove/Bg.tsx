@@ -38,7 +38,7 @@ const Bg = ({ children }: Bgprops) => {
       ref={bgRef}
       onMouseMove={handleMouseMove}
       className={`${theme} h-full min-w-full max-w-full justify-center
-        select-none transition-colors duration-300 pt-10 pb-30 px-3 sm:px-5  `}
+        select-none transition-colors duration-300 pt-10 pb-20 px-3 sm:px-5  `}
       style={
         {
           "--mouse-x": "50%",
