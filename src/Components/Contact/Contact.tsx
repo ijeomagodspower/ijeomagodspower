@@ -60,25 +60,28 @@ const Contact = () => {
             </p>
           </div>
           {/* 2nd Col */}
-          <div className="flex-col w-full md:w-[calc(100% - 12px)]">
-            <div className="flex w-full">
+          <div className="flex-col w-full md:w-[calc(100% - 12px)] text-lg font-bold align-middle space-y-10">
+            <div className="flex w-full gap-6 text-primary">
               <IoCall className="w-6 h-6 text-primary" />
               <h3>(+234)-8133235527</h3>
             </div>
-            <div className="flex w-full">
+            <div className="flex w-full gap-6 text-primary">
               <MdEmail className="w-6 h-6 text-primary" />
               <h3>ejehijeoma197@gmail.com</h3>
             </div>
-            <div>
-              <PopupButton
-                url="https://calendly.com/your_scheduling_page"
-                /*
-                 * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
-                 * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
-                 */
-                rootElement={document.getElementById("root") as HTMLElement}
-                text="Schedule Call"
-              />
+            <div className="flex justify-start">
+              <div className="flex place-content-center py-4 px-8 rounded-full bg-primary ">
+                <PopupButton
+                  url="https://calendly.com/your_scheduling_page"
+                  /*
+                   * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+                   * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+                   */
+                  rootElement={document.getElementById("root") as HTMLElement}
+                  text="Schedule Call"
+                  className="text-white text-md"
+                />
+              </div>
             </div>
           </div>
         </div>
