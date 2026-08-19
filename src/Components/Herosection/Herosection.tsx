@@ -59,13 +59,13 @@ const Herosection = () => {
           >
             <span
               className="flex w-full border-lightbg border-2 text-lightbg bg-secondary 
-              px-6 py-4 md:px-8 items-center text-center  cursor-pointer rounded-full 
+              px-6 py-4 md:px-8 items-center text-center cursor-pointer rounded-full
               transition-all duration-300 hover:scale-110 hover:text-primary hover:bg-lightbg group
             "
             >
               <a
                 href="https://wa.me/2348133235527"
-                className="flex w-full justify-between text-lg font-extrabold "
+                className="flex w-full justify-between text-lg font-bold "
                 target="_blank"
               >
                 Contact Me

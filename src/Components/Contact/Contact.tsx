@@ -35,16 +35,15 @@ const Contact = () => {
       {/*Contact Context */}
       <div className="flex flex-col w-full bg-white/15 border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 md-p-6 rounded-3xl">
         <div
-          className="flex flex-col w-full bg-lightbg rounded-3xl p-2 py-6 
-       md:flex-row md:p-6
-      "
+          className="flex flex-col w-full bg-lightbg rounded-3xl p-2 py-6 space-10
+           md:flex-row md:p-6"
         >
-          <div className="flex-col w-full md:w-[calc(100% - 12px)]">
+          <div className="flex-col w-full md:w-[calc(100% - 12px)] ">
             <ShinyText
               text="Let's Work Together"
               speed={2}
               delay={0}
-              color="#00b862"
+              color="#904aff"
               shineColor="#ffffff"
               spread={120}
               direction="left"
@@ -61,16 +60,19 @@ const Contact = () => {
           </div>
           {/* 2nd Col */}
           <div className="flex-col w-full md:w-[calc(100% - 12px)] text-lg font-bold align-middle space-y-10">
-            <div className="flex w-full gap-6 text-primary">
-              <IoCall className="w-6 h-6 text-primary" />
-              <h3>(+234)-8133235527</h3>
+            <div className="flex-col justify-start align-middle space-y-6">
+              <div className="flex w-full gap-6 text-secondary align-middle">
+                <IoCall className="w-6 h-6 text-secondary" />
+                <h3>(+234)-8133235527</h3>
+              </div>
+              <div className="flex w-full gap-6 text-secondary align-middle">
+                <MdEmail className="w-6 h-6 text-secondary" />
+                <h3>ejehijeoma197@gmail.com</h3>
+              </div>
             </div>
-            <div className="flex w-full gap-6 text-primary">
-              <MdEmail className="w-6 h-6 text-primary" />
-              <h3>ejehijeoma197@gmail.com</h3>
-            </div>
+
             <div className="flex justify-start">
-              <div className="flex place-content-center py-4 px-8 rounded-full bg-primary ">
+              <div className="flex place-content-center py-4 px-8 rounded-full bg-secondary hover:bg-primary transition-all duration-300 ">
                 <PopupButton
                   url="https://calendly.com/your_scheduling_page"
                   /*
