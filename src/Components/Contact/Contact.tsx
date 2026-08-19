@@ -69,7 +69,7 @@ const Contact = () => {
                 className="font-inter text-5xl font-bold"
               />
             </div>
-            <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary md:mb-18"></div>
+            <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary md:mb-20"></div>
             <p className="flex-col flex-wrap wrap-break font-sora text-secondary sm:text-lg">
               Have a project in mind or an idea you’d like to bring to life? I’d
               love to hear about it. Let’s create something impactful together.

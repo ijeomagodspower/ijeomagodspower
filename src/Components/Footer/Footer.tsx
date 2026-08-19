@@ -15,7 +15,7 @@ const Footer = () => {
 
   return (
     <section
-      className={`flex-col ${bgTheme} min-w-full h-20 py-4 px-4 space-y-4 align-center justify-center sm:flex-row sm:justify-between sm:px-10 `}
+      className={`flex-col ${bgTheme} min-w-full py-6 px-4 space-y-4 align-center justify-center sm:flex-row sm:justify-between sm:px-10 `}
       id="Footer"
     >
       <div className="w-full flex-col space-y-4 justify-center sm:flex-row">
@@ -25,7 +25,7 @@ const Footer = () => {
         </h4>
       </div>
 
-      <div className="flex flex-row justify-center items-center gap-5 ">
+      <div className="flex flex-row items-center gap-5 ">
         <div>
           <a href="www.linkedin.com/in/ijeoma-ejeh-90540133a" target="_blank">
             <FaLinkedin className="text-primary hover:text-secondary w-6 h-6 hover:scale-120 transition-all duration-300" />
