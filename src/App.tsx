@@ -8,25 +8,23 @@ import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
-    <>
-      <Bg>
-        <div className="min-full min-h-screen mb-10 px-3 sm:min-w-11/12 sm:px-5">
-          <Herosection />
-        </div>
-        <div className="min-full sm:min-w-11/12 my-40 sm:px-20">
-          <About />
-        </div>
-        <div className="min-full sm:min-w-11/12 my-15 sm:px-20">
-          <Projects />
-        </div>
-        <div className="min-full sm:min-w-11/12 my-15 sm:px-20">
-          <Skills />
-        </div>
-        <div className="min-full sm:min-w-11/12 my-30 sm:px-20">
-          <Contact />
-        </div>
-      </Bg>
-    </>
+    <Bg>
+      <div className="min-full min-h-screen mb-10 px-3 sm:min-w-11/12 sm:px-5">
+        <Herosection />
+      </div>
+      <div className="min-full sm:min-w-11/12 my-40 sm:px-20">
+        <About />
+      </div>
+      <div className="min-full sm:min-w-11/12 my-15 sm:px-20">
+        <Projects />
+      </div>
+      <div className="min-full sm:min-w-11/12 my-15 sm:px-20">
+        <Skills />
+      </div>
+      <div className="min-full sm:min-w-11/12 my-30 sm:px-20">
+        <Contact />
+      </div>
+    </Bg>
   );
 }
 
