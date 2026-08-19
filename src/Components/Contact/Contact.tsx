@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col w-full my-10 justify-center md:w-[calc(100% - 20px)]"
+      className="flex flex-col w-full mt-10 justify-center md:w-[calc(100% - 20px)]"
     >
       <div className="flex-col my-10">
         <h3
