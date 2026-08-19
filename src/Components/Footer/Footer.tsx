@@ -14,14 +14,18 @@ const Footer = () => {
   }
 
   return (
-    <section className={` ${bgTheme} min-w-full flex px-6 `} id="Footer">
-      <div className="w-full p-6 flex-col space-y-4 sm:flex-row sm:justify-between">
+    <section
+      className={` ${bgTheme} min-w-full mt-30 flex h-20 align-center justify-center sm:justify-between `}
+      id="Footer"
+    >
+      <div className="w-full p-6 flex-col space-y-4 justify-center sm:flex-row">
         <h4 className="flex-row text-primary">
-          <span className="text-hover-primary font-bold">IJ •</span>©
+          <span className="text-hover-primary font-bold">IJ • </span>©
           {new Date().getFullYear()} Ijeoma Godspower
         </h4>
       </div>
-      <div className="flex flex-row justify-center items-middle gap-4">
+
+      <div className="flex flex-row justify-center items-center gap-5 sm:justify-start ">
         <div>
           <a href="www.linkedin.com/in/ijeoma-ejeh-90540133a" target="_blank">
             <FaLinkedin className="text-primary hover:text-secondary w-6 h-6 hover:scale-120 transition-all duration-300" />
