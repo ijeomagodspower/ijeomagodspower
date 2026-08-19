@@ -15,11 +15,11 @@ const Footer = () => {
 
   return (
     <section
-      className={`flex-col ${bgTheme} min-w-full h-20 px-4 align-center justify-center sm:flex sm:justify-between sm:px-10 `}
+      className={`flex-col ${bgTheme} min-w-full h-20 px-4 space-y-4 align-center justify-center sm:flex-row sm:justify-between sm:px-10 `}
       id="Footer"
     >
       <div className="w-full flex-col space-y-4 justify-center sm:flex-row">
-        <h4 className="flex-row text-primary">
+        <h4 className="flex-row text-primary text-center">
           <span className="text-hover-primary font-bold">IJ • </span>©
           {new Date().getFullYear()} Ijeoma Godspower
         </h4>

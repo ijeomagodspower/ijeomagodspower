@@ -69,7 +69,7 @@ const Contact = () => {
                 className="font-inter text-5xl font-bold"
               />
             </div>
-            <div className="w-10 border-t-2 border-dashed mt-4 mb-12 border-secondary"></div>
+            <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary md:mb-18"></div>
             <p className="flex-col flex-wrap wrap-break font-sora text-secondary sm:text-lg">
               Have a project in mind or an idea you’d like to bring to life? I’d
               love to hear about it. Let’s create something impactful together.
@@ -80,7 +80,7 @@ const Contact = () => {
             <div className="flex-col justify-start align-middle items-center pt-6 space-y-6">
               <div className="flex w-full gap-6 text-secondary items-center">
                 <IoCall className="w-6 h-6 text-secondary" />
-                <h3>(+234)-8133235527</h3>
+                <h3>(+234) 8133235527</h3>
               </div>
               <div className="flex w-full gap-6 text-secondary items-center">
                 <MdEmail className="w-6 h-6 text-secondary" />
