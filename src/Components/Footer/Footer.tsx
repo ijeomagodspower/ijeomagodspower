@@ -15,17 +15,17 @@ const Footer = () => {
 
   return (
     <section
-      className={` flex-row ${bgTheme} min-w-full py-6 px-4 space-y-4 justify-center sm:px-10 `}
+      className={`flex flex-col ${bgTheme} min-w-full py-6 px-4 space-y-4 justify-center sm:flex-row sm:justify-between sm:px-10 `}
       id="Footer"
     >
-      <div className="flex-row space-y-4 justify-center ">
-        <h4 className="flex-row text-primary text-cente sm:text-start">
+      <div className="flex flex-row space-y-4 justify-center ">
+        <h4 className="flex-row text-primary text-center sm:text-start">
           <span className="text-hover-primary font-bold">IJ • </span>©
           {new Date().getFullYear()} Ijeoma Godspower
         </h4>
       </div>
 
-      <div className="flex-row gap-5 ">
+      <div className="flex flex-row gap-5 justify-center ">
         <div>
           <a href="www.linkedin.com/in/ijeoma-ejeh-90540133a" target="_blank">
             <FaLinkedin className="text-primary hover:text-secondary w-6 h-6 hover:scale-120 transition-all duration-300" />
