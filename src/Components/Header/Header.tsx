@@ -143,7 +143,9 @@ const Header = ({ onSet, themeState }: Props) => {
           
         "
         >
-          <MessageCircleMore className="text-primary group-hover:text-secondary" />
+          <a href="https://wa.me/2348133235527" target="_blank">
+            <MessageCircleMore className="text-primary group-hover:text-secondary" />
+          </a>
         </button>
       </div>
     </div>
