@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { useRef } from "react";
 import Header from "../Header/Header";
 import { ThemeContext, type Theme } from "../../ThemeContext";
@@ -27,11 +27,17 @@ const Bg = ({ children }: Bgprops) => {
 
   const onSet = () => {
     const newTheme = theme === "light" ? "dark" : "light";
+    const userTheme = localStorage.setItem("theme", theme);
+    console.log(userTheme);
     setTheme(newTheme);
-
     document.documentElement.classList.remove("light", "dark");
     document.documentElement.classList.add(newTheme);
   };
+
+  useEffect(() => {
+    const userPrevTheme = localStorage.getItem("theme");
+    setTheme(userPrevTheme === "light" ? "dark" : "light");
+  }, []);
 
   return (
     <div
