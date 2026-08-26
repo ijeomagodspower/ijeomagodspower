@@ -26,7 +26,7 @@ const Bg = ({ children }: Bgprops) => {
   };
 
   const onSet = () => {
-    const newTheme = theme === "light" ? "dark" : "light";
+    const newTheme = theme === "light" ? "light" : "dark";
     setTheme(newTheme);
     const userTheme = localStorage.setItem("theme", theme);
     console.log(userTheme);
