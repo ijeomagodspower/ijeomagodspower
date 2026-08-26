@@ -26,7 +26,7 @@ const Bg = ({ children }: Bgprops) => {
   };
 
   const onSet = () => {
-    const newTheme = theme === "light" ? "light" : "dark";
+    const newTheme = theme === "dark" ? "light" : "dark";
     setTheme(newTheme);
     const userTheme = localStorage.setItem("theme", theme);
     console.log(userTheme);
@@ -36,7 +36,7 @@ const Bg = ({ children }: Bgprops) => {
 
   useEffect(() => {
     const userPrevTheme = localStorage.getItem("theme");
-    setTheme(userPrevTheme === "light" ? "dark" : "light");
+    setTheme(userPrevTheme === "light" ? "light" : "dark");
   }, []);
 
   return (
