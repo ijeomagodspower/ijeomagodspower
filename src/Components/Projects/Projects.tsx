@@ -3,8 +3,8 @@ import Capstone from "../../assets/Capstone.jpg";
 import UserForm from "../../assets/userform.jpg";
 import Glnd from "../../assets/Glnd.jpg";
 import Tevik from "../../assets/Tevikextract.jpg";
-import Safeattend from "../../assets/safeattend.jpg";
-import Simplx from "../../assets/simplx.jpg";
+import Safeattend from "../../assets/Safeattend.png";
+import Simplx from "../../assets/Simplx.png";
 import { useContext } from "react";
 import { ThemeContext, type Theme } from "../../ThemeContext";
 
@@ -298,7 +298,7 @@ const Projects = () => {
             <div
               className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
             >
-              <p>Wordpress</p>
+              <p>React Typescript</p>
             </div>
           </div>
         </div>
