@@ -1,6 +1,6 @@
 import { CircleArrowOutUpRight } from "lucide-react";
 import Capstone from "../../assets/Capstone.jpg";
-import UserForm from "../../assets/userform.jpg";
+import Skyluxe from "../../assets/Skyluxe.png";
 import Glnd from "../../assets/Glnd.jpg";
 import Tevik from "../../assets/Tevikextract.jpg";
 import Safeattend from "../../assets/Safeattend.png";
@@ -92,10 +92,10 @@ const Projects = () => {
             <h3
               className={` ${txtSwPry} text-2xl sm:text-3xl font-bold text-lightbg `}
             >
-              User Data Form
+              Skyluxe
             </h3>
             <a
-              href="https://js-user-data-form.vercel.app/"
+              href="https://skyluxeglobal.com/"
               target="_blank"
               className="flex flex-row flex-wrap gap-2 px-2 items-center text-center text-sm text-primary bg-lightbg 
             cursor-pointer border-none rounded-full transition-all duration-300 hover:scale-120 hover:text-lightbg hover:bg-primary"
@@ -105,14 +105,14 @@ const Projects = () => {
             </a>
           </div>
 
-          <a href="https://js-user-data-form.vercel.app/" target="_blank">
+          <a href="https://skyluxeglobal.com/" target="_blank">
             <div
               className="flex bg-white/15 border-white/20 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl object-cover h-80 
           hover:scale-105 transition-all duration-300"
             >
               <img
-                src={UserForm}
-                alt="User Data Form Project"
+                src={Skyluxe}
+                alt="Skyluxe Project"
                 className="w-full h-full object-cover rounded-3xl"
               />
             </div>
@@ -122,17 +122,7 @@ const Projects = () => {
             <div
               className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
             >
-              <p>Html</p>
-            </div>
-            <div
-              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
-            >
-              <p>Css</p>
-            </div>
-            <div
-              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
-            >
-              <p>Javascript</p>
+              <p>Wordpress</p>
             </div>
           </div>
         </div>
