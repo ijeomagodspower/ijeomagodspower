@@ -233,7 +233,7 @@ const Projects = () => {
           <a href="" target="">
             <div
               className="flex bg-white/15 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl h-80 
-                hover:scale-105 transition-all duration-300"
+                hover:scale-105 transition-all duration-300 bg-cover bg-center bg-no-repeat"
             >
               <img
                 src={Safeattend}
@@ -274,7 +274,7 @@ const Projects = () => {
           <a href="" target="">
             <div
               className="flex bg-white/15 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl h-80 
-                hover:scale-105 transition-all duration-300"
+                hover:scale-105 transition-all duration-300 bg-cover bg-center bg-no-repeat"
             >
               <img
                 src={Simplx}
