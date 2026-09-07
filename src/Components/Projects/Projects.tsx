@@ -3,6 +3,8 @@ import Capstone from "../../assets/Capstone.jpg";
 import UserForm from "../../assets/userform.jpg";
 import Glnd from "../../assets/Glnd.jpg";
 import Tevik from "../../assets/Tevikextract.jpg";
+import Safeattend from "../../assets/safeattend.jpg";
+import Simplx from "../../assets/simplx.jpg";
 import { useContext } from "react";
 import { ThemeContext, type Theme } from "../../ThemeContext";
 
@@ -179,11 +181,7 @@ const Projects = () => {
 
         {/* Project 4 */}
 
-        <div
-          className="flex flex-col gap-y-6 basis:f
-        
-        ll sm:basis-[calc(50%-12px)] "
-        >
+        <div className="flex flex-col gap-y-6 basis:full sm:basis-[calc(50%-12px)]">
           <div className="flex flex-row justify-between w-full px-4 ">
             <h3
               className={` ${txtSwPry} text-2xl sm:text-3xl font-bold text-lightbg `}
@@ -224,6 +222,86 @@ const Projects = () => {
         </div>
 
         {/* Project 5 */}
+        <div className="flex flex-col gap-y-6 basis:full sm:basis-[calc(50%-12px)]">
+          <div className="flex flex-row justify-between w-full px-4 ">
+            <h3
+              className={` ${txtSwPry} text-2xl sm:text-3xl font-bold text-lightbg `}
+            >
+              Safeattend
+            </h3>
+            <a
+              href=""
+              target=""
+              className="flex flex-row gap-2 px-2 items-center text-center text-sm text-primary bg-lightbg 
+            cursor-pointer border-none rounded-full transition-all duration-300 hover:scale-120 hover:text-lightbg hover:bg-primary"
+            >
+              <span>Upcoming...</span>
+              <CircleArrowOutUpRight className="w-3 h-3" />
+            </a>
+          </div>
+
+          <a href="" target="">
+            <div
+              className="flex bg-white/15 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl h-80 
+                hover:scale-105 transition-all duration-300"
+            >
+              <img
+                src={Safeattend}
+                alt="Safeattend Project"
+                className="w-full h-full object-cover rounded-3xl"
+              />
+            </div>
+          </a>
+
+          <div className=" flex flex-row justify-start gap-x-6">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
+              <p>Wordpress</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Project 6 */}
+        <div className="flex flex-col gap-y-6 basis:full sm:basis-[calc(50%-12px)]">
+          <div className="flex flex-row justify-between w-full px-4 ">
+            <h3
+              className={` ${txtSwPry} text-2xl sm:text-3xl font-bold text-lightbg `}
+            >
+              Simplx
+            </h3>
+            <a
+              href=""
+              target=""
+              className="flex flex-row gap-2 px-2 items-center text-center text-sm text-primary bg-lightbg 
+            cursor-pointer border-none rounded-full transition-all duration-300 hover:scale-120 hover:text-lightbg hover:bg-primary"
+            >
+              <span>Upcoming...</span>
+              <CircleArrowOutUpRight className="w-3 h-3" />
+            </a>
+          </div>
+
+          <a href="" target="">
+            <div
+              className="flex bg-white/15 shadow-[0_8px_32px_rgba(31,38,135,0.15)] p-2 sm:p-4 rounded-3xl h-80 
+                hover:scale-105 transition-all duration-300"
+            >
+              <img
+                src={Simplx}
+                alt="Simplx Project"
+                className="w-full h-full object-cover rounded-3xl"
+              />
+            </div>
+          </a>
+
+          <div className=" flex flex-row justify-start gap-x-6">
+            <div
+              className={`${txtSwBt} rounded-3xl bg-white/15 border-white/20 shadow-[0_8px_32_rgba(31,38,135,0.15)] px-2 `}
+            >
+              <p>Wordpress</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
