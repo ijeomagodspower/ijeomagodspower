@@ -31,7 +31,7 @@ const Projects = () => {
       {/* Projects Container */}
       <div
         className="flex flex-col gap-y-20 min-w-full max-h-full py-2 pr-2 
-         sm:flex-row sm:flex-wrap sm:min-w-full sm:gap-y-6 sm:gap-x-6 "
+         sm:flex-row sm:flex-wrap sm:min-w-full sm:gap-y-10 sm:gap-x-6 "
       >
         {/* Project 1 */}
 
