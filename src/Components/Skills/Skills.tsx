@@ -7,6 +7,8 @@ import {
   FaGitAlt,
   FaWordpress,
 } from "react-icons/fa";
+import {FileText} from "lucide-react"
+import { RiNextjsFill } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
 import ShinyText from "../../../@/components/ShinyText";
 import Cert from "../../../public/files/My-cert.pdf"
@@ -156,6 +158,23 @@ const Skills = () => {
             className="text-lg font-bold"
           />
         </div>
+
+        div className="order-2 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
+          <RiNextjsFill className="text-4xl text-blue-500" />
+          <ShinyText
+            text="Next.Js"
+            speed={2}
+            delay={0}
+            color="#821eff"
+            shineColor="#ffffff"
+            spread={120}
+            direction="left"
+            yoyo={false}
+            pauseOnHover={false}
+            disabled={false}
+            className="text-lg font-bold"
+          />
+        </div>
       </div>
        <button
           className="p-4 flex gap-4 cursor-pointer
@@ -164,7 +183,7 @@ const Skills = () => {
         "
         >
           <p className="flex text-secondary  transition-all  group-hover:text-secondary">
-            Download CV
+            Cert
           </p>
           <a
             href="my-portfolio\public\files\My-cert.pdf"
