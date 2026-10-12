@@ -5,9 +5,11 @@ import {
   Toolbox,
   Wrench,
   Sun,
-  MessageCircleMore,
+  FileText,
   MoonStar,
 } from "lucide-react";
+
+import Cv from "../../../public/files/Ejeh_Ijeoma_Godspower_Frontend_Developer_CV_Updated.pdf";
 
 type Props = {
   themeState: string;
@@ -136,15 +138,22 @@ const Header = ({ onSet, themeState }: Props) => {
           </h4>
         </a>
       </nav>
-      <div className="hidden transition-all duration-300 hover:scale-120 group sm:flex cursor-pointer">
+      <div className="hidden transition-all duration-1000 hover:scale-120 group sm:flex cursor-pointer">
         <button
-          className="p-4 flex gap-2 cursor-pointer
+          className="p-4 flex gap-4 cursor-pointer
           bg-white/10 border border-white/20 rounded-full backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)]
-          
+         
         "
         >
-          <a href="https://wa.me/2348133235527" target="_blank">
-            <MessageCircleMore className="text-primary group-hover:text-secondary" />
+          <p className="hidden text-secondary group-hover:flex transition-all  group-hover:text-secondary">
+            Download CV
+          </p>
+          <a
+            href="my-portfolio\public\files\Ejeh_Ijeoma_Godspower_Frontend_Developer_CV_Updated.pdf"
+            target="_blank"
+            download={Cv}
+          >
+            <FileText className="text-primary group-hover:text-secondary" />
           </a>
         </button>
       </div>

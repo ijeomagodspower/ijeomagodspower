@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import ShinyText from "../../../@/components/ShinyText";
+import Cert from "../../../public/files/My-cert.pdf"
 
 const Skills = () => {
   return (
@@ -156,6 +157,23 @@ const Skills = () => {
           />
         </div>
       </div>
+       <button
+          className="p-4 flex gap-4 cursor-pointer
+          bg-white/10 border border-white/20 rounded-full backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)]
+         
+        "
+        >
+          <p className="flex text-secondary  transition-all  group-hover:text-secondary">
+            Download CV
+          </p>
+          <a
+            href="my-portfolio\public\files\My-cert.pdf"
+            target="_blank"
+            download={Cert}
+          >
+            <FileText className="text-primary group-hover:text-secondary" />
+          </a>
+        </button>
     </div>
   );
 };
