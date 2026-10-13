@@ -136,23 +136,35 @@ const Header = ({ onSet, themeState }: Props) => {
           </h4>
         </a>
       </nav>
-      <div className="hidden transition-all duration-1000 hover:scale-120 group sm:flex cursor-pointer">
-        <button
-          className="p-4 flex gap-4 cursor-pointer
-          bg-white/10 border border-white/20 rounded-full backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)]
-         
-        "
+
+      <div className="hidden sm:flex group">
+        <a
+          href="/Ejeh_Ijeoma_Godspower_Frontend_Developer_CV_Updated.pdf"
+          download="Ijeoma-Godspower-CV.pdf"
+          className="
+      flex items-center gap-0
+      rounded-full border border-white/20
+      bg-white/10 p-4 backdrop-blur-xl
+      shadow-[0_8px_32px_rgba(31,38,135,0.15)]
+      transition-all duration-1000 ease-in-out
+      hover:gap-4 hover:scale-105
+    "
         >
-          <p className="hidden text-secondary group-hover:flex transition-all group-hover:text-secondary">
-            Download CV
-          </p>
-          <a
-            href="/Ejeh_Ijeoma_Godspower_Frontend_Developer_CV_Updated.pdf"
-            download="Ijeoma-Godspower-Cert.pdf"
+          <FileText className="shrink-0 text-primary transition-colors duration-300 group-hover:text-secondary" />
+
+          <span
+            className="
+        max-w-0 overflow-hidden whitespace-nowrap
+        opacity-0
+        transition-all duration-1000 ease-in-out
+        group-hover:max-w-32
+        group-hover:opacity-100
+        group-hover:text-secondary
+      "
           >
-            <FileText className="text-primary group-hover:text-secondary" />
-          </a>
-        </button>
+            Download CV
+          </span>
+        </a>
       </div>
     </div>
   );
