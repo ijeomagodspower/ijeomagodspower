@@ -11,7 +11,6 @@ import { FileText } from "lucide-react";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
 import ShinyText from "../../../@/components/ShinyText";
-import Cert from "../../../public/files/My-cert.pdf";
 
 const Skills = () => {
   return (
@@ -186,7 +185,7 @@ const Skills = () => {
           <p className="flex text-white text-lg group-hover:text-primary">
             Certificate
           </p>
-          <a href="my-portfolio\public\files\My-cert.pdf" download={Cert}>
+          <a href="\My-cert.pdf" download="My-cert.pdf">
             <FileText className="text-white group-hover:text-primary" />
           </a>
         </button>
