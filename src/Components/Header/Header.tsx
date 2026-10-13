@@ -9,8 +9,6 @@ import {
   MoonStar,
 } from "lucide-react";
 
-import Cv from "../../../public/files/Ejeh_Ijeoma_Godspower_Frontend_Developer_CV_Updated.pdf";
-
 type Props = {
   themeState: string;
   onSet: () => void;
@@ -145,12 +143,12 @@ const Header = ({ onSet, themeState }: Props) => {
          
         "
         >
-          <p className="hidden text-secondary group-hover:flex transition-all  group-hover:text-secondary">
+          <p className="hidden text-secondary group-hover:flex transition-all group-hover:text-secondary">
             Download CV
           </p>
           <a
-            href="my-portfolio\public\files\Ejeh_Ijeoma_Godspower_Frontend_Developer_CV_Updated.pdf"
-            download={Cv}
+            href="/Ejeh_Ijeoma_Godspower_Frontend_Developer_CV_Updated.pdf"
+            download="Ijeoma-Godspower-Cert.pdf"
           >
             <FileText className="text-primary group-hover:text-secondary" />
           </a>

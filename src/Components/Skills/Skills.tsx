@@ -124,7 +124,7 @@ const Skills = () => {
             className="text-lg font-bold"
           />
         </div>
-        <div className="order-8 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
+        <div className="order-7 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <SiTailwindcss className="text-4xl text-blue-500" />
           <ShinyText
             text="Tailwind Css"
@@ -141,7 +141,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="order-7 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
+        <div className="order-9 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaWordpress className="text-4xl text-blue-500" />
           <ShinyText
             text="WordPress"
@@ -185,7 +185,7 @@ const Skills = () => {
           <p className="flex text-white text-lg group-hover:text-primary">
             Certificate
           </p>
-          <a href="\My-cert.pdf" download="My-cert.pdf">
+          <a href="/My-cert.pdf" download="My-cert.pdf">
             <FileText className="text-white group-hover:text-primary" />
           </a>
         </button>
