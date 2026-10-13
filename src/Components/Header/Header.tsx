@@ -150,7 +150,6 @@ const Header = ({ onSet, themeState }: Props) => {
           </p>
           <a
             href="my-portfolio\public\files\Ejeh_Ijeoma_Godspower_Frontend_Developer_CV_Updated.pdf"
-            target="_blank"
             download={Cv}
           >
             <FileText className="text-primary group-hover:text-secondary" />

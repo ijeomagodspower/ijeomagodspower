@@ -142,7 +142,7 @@ const Skills = () => {
           />
         </div>
 
-        <div className="order-2 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
+        <div className="order-7 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
           <FaWordpress className="text-4xl text-blue-500" />
           <ShinyText
             text="WordPress"
@@ -160,7 +160,7 @@ const Skills = () => {
         </div>
 
         <div className="order-2 flex flex-row bg-linear-to-br from-secondary/90 to-lightbg px-2 py-4 gap-3 rounded-3xl items-center">
-          <RiNextjsFill className="text-4xl text-blue-500" />
+          <RiNextjsFill className="text-4xl text-black" />
           <ShinyText
             text="Next.Js"
             speed={2}
@@ -178,19 +178,16 @@ const Skills = () => {
 
         <button
           className="p-4 flex gap-4 cursor-pointer
-          bg-white/10 border border-white/20 rounded-full backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)]
+          bg-green-400 border border-white/20 rounded-3xl backdrop-blur-xl shadow-[0_8px_32px_rgba(31,38,135,0.15)]
+          items-center hover:scale-105 transition-all duration-300 group
          
         "
         >
-          <p className="flex text-secondary  transition-all  group-hover:text-secondary">
-            Cert
+          <p className="flex text-white text-lg group-hover:text-primary">
+            Certificate
           </p>
-          <a
-            href="my-portfolio\public\files\My-cert.pdf"
-            target="_blank"
-            download={Cert}
-          >
-            <FileText className="text-primary group-hover:text-secondary" />
+          <a href="my-portfolio\public\files\My-cert.pdf" download={Cert}>
+            <FileText className="text-white group-hover:text-primary" />
           </a>
         </button>
       </div>

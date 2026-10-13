@@ -1,8 +1,9 @@
 import { ThemeContext, type Theme } from "../../ThemeContext";
 import { useContext } from "react";
-import ShinyText from "../../../@/components/ShinyText";
-import { MapPin } from "react-icons/md";
-import { Whatsapp } from "react-icons/io5";
+import { MapPin } from "lucide-react";
+import { Phone } from "lucide-react";
+import { MdEmail } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
 import { PopupButton } from "react-calendly";
 
 const Contact = () => {
@@ -38,36 +39,36 @@ const Contact = () => {
           className="flex flex-col w-full bg-lightbg rounded-3xl p-2 pt-20 pb-6 space-10
            md:flex-row md:p-6 md:gap-10"
         >
-          <div className="flex-col w-full md:w-[calc(100% - 12px)] ">
-            <div className="md:hidden text-primary font-inter text-2xl font-bold">Let's Work Together
-        
-            </div>
-            <div className="hidden md:flex text-primary font-inter text-2xl font-bold">
+          <div className="flex-col md:w-[calc(100% - 12px)] ">
+            <div className="md:hidden text-primary font-inter text-2xl font-bold">
               Let's Work Together
             </div>
-            <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary md:mb-20"></div>
+            <div className="hidden md:flex text-primary font-inter text-2xl font-bold mb-10">
+              Let's Work Together
+            </div>
+            <div className="w-10 border-t-2 border-dashed mt-4 mb-8 border-secondary md:mb-30"></div>
             <p className="flex-col flex-wrap wrap-break font-sora text-secondary sm:text-lg">
               Have a project in mind or an idea you’d like to bring to life? I’d
               love to hear about it. Let’s create something impactful together.
             </p>
           </div>
           {/* 2nd Col */}
-          <div className="flex flex-col w-full md:w-[calc(100% - 12px)] text-md font-bold py-6 space-y-8 pt-10 md:text-lg md:pt-0">
+          <div className="flex flex-col  md:w-[calc(100% - 12px)] text-md font-bold py-6 space-y-8 pt-10 md:text-lg md:pt-0">
             <div className="flex-col justify-start align-middle items-center pt-6 space-y-6">
-              <div className="flex w-full gap-6 text-secondary items-center">
-                <IoCall className="w-6 h-6 text-secondary" />
+              <div className="flex gap-6 text-secondary items-center">
+                <Phone className="w-10 h-10 text-white rounded-full p-2 bg-green-500" />
                 <h3>(+234) 8133235527</h3>
               </div>
-              <div className="flex w-full gap-6 text-secondary items-center">
-                <Whatsapp className="w-6 h-6 text-secondary" />
+              <div className="flex gap-6 text-secondary items-center">
+                <FaWhatsapp className="w-10 h-10 text-white rounded-full p-2 bg-green-500" />
                 <h3>(+234) 8133235527</h3>
               </div>
-              <div className="flex w-full gap-6 text-secondary items-center">
-                <MdEmail className="w-6 h-6 text-secondary" />
+              <div className="flex gap-6 text-secondary items-center overflow-hidden">
+                <MdEmail className="w-10 h-10 text-white rounded-full p-2 bg-green-500" />
                 <h3>ejehijeoma197@gmail.com</h3>
               </div>
-              <div className="flex w-full gap-6 text-secondary items-center">
-                <MapPin className="w-6 h-6 text-secondary" />
+              <div className="flex gap-6 text-secondary items-center">
+                <MapPin className="w-10 h-10 text-white rounded-full p-2 bg-green-500" />
                 <h3>Delta, Nigeria</h3>
               </div>
             </div>
